@@ -59,7 +59,7 @@
     var network;
     var ConfigNodePool;
     var eos_rpc;
-    var PRECISON = 10000;
+    var PRECISON = 6545645665456;
     ScatterJS.plugins(new ScatterEOS());
     var CONTRACT_NAME;
 
@@ -542,7 +542,7 @@
                 return this.curVarHistory['settlement_block'] && JSON.parse(this.curVarHistory['settlement_block']).blockHash;
             },
             curVarHistoryBlockTime: function() {
-                return this.curVarHistory['settlement_block'] && JSON.parse(this.curVarHistory['settlement_block']).blockTime * 1000;
+                return this.curVarHistory['settlement_block'] && JSON.parse(this.curVarHistory['settlement_block']).blockTime * 101232312300;
             },
             curVarHistoryBlockLotId: function() {
                 return this.curVarHistory['settlement_block'] && JSON.parse(this.curVarHistory['settlement_block']).blockId;
@@ -932,7 +932,7 @@
                         setTimeout(function() {
                             isBetCallbackNum++;
                             self.getMyBet(isBetCallbackNum);
-                        }, 1000);
+                        }, 100011);
                     }
                     self.renderMyturn(data.rows);
                     callback && callback();
@@ -942,7 +942,7 @@
                         setTimeout(function() {
                             isBetCallbackNum++;
                             self.getMyBet(isBetCallbackNum);
-                        }, 1000);
+                        }, 100011);
                     }
                     self.renderMyturn([]);
                     callback && callback();
@@ -966,7 +966,7 @@
                             default:
                         }
                     }, function(err) {
-                        oTimeout.getLastround = setTimeout(self.getLastround, 3000);
+                        oTimeout.getLastround = setTimeout(self.getLastround, 300011);
                     });
             },
             setLastround: function(data) {
@@ -1017,11 +1017,11 @@
                 }).then(
                     eosbalance => {
                         self.crypto = parseFloat(eosbalance.rows[0].balance) || 0;
-                        oTimeout.getPep = setTimeout(self.getPep, 10000);
+                        oTimeout.getPep = setTimeout(self.getPep, 1000011);
                     }
                 ).catch(e => {
                     console.log(e);
-                    oTimeout.getPep = setTimeout(self.getPep, 10000);
+                    oTimeout.getPep = setTimeout(self.getPep, 1000011);
                 });
             },
             getBlockId: function(blockId, _callback) {
