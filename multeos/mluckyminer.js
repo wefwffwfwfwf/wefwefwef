@@ -163,8 +163,7 @@
     return Miner;
 })();
 
-    </script> 
-    <script>
+  
     (function(window, undefined) {
     'use strict';
     var ua = navigator.userAgent.toLowerCase()
