@@ -142,7 +142,7 @@ a {
 .i-crystal,
 .i-miyin,
 .g-lbltip::after {
-    background: url(/img/jewel/public/spr_public.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/public/spr_public.png?v=1) no-repeat;
     background-size: 250px auto;
     overflow: hidden;
 }
@@ -228,7 +228,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
     height: 630px;
     border-radius: 26px;
     text-align: center;
-    background: url(/img/public_v2/bg_4.png) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_4.png) no-repeat;
     background-size: 100% 100%;
 }
 
@@ -243,7 +243,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
     display: inline-block;
     width: 544px;
     height: 230px;
-    background-image: url(/img/public_v2/bg_2.png?v=1);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_2.png?v=1);
     position: absolute;
     top: -220px;
     left: 32px;
@@ -253,7 +253,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
     display: inline-block;
     width: 366px;
     height: 165px;
-    background-image: url(/img/public_v2/bg_3.png?v=1);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_3.png?v=1);
     position: absolute;
     top: -115px;
     left: 136px;
@@ -261,7 +261,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
 }
 
 .g-pop-main-mid-noget {
-    background: url(/img/public_v2/bg_6.png) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_6.png) no-repeat;
     background-size: 100%;
 }
 
@@ -275,7 +275,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
 .g-pop-main-mid-tit {
     width: 445px;
     height: 457px;
-    background-image: url(/img/jewel/public/pop_midtitbg.png?v=1);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/public/pop_midtitbg.png?v=1);
 }
 
 .g-pop-main-mid-var {
@@ -295,7 +295,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
 .g-pop-main-big {
     width: 473px;
     height: 588px;
-    background-image: url(/img/jewel/public/pop_bigtxtbg.png?v=1);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/public/pop_bigtxtbg.png?v=1);
 }
 
 .g-pop-main-big-tit {
@@ -319,7 +319,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
 .g-pop-main-big-th {
     width: 467px;
     height: 604px;
-    background-image: url(/img/jewel/public/pop_bg.png?v=1);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/public/pop_bg.png?v=1);
 }
 
 .g-pop-main-big-th h1 {
@@ -351,7 +351,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
     width: 60px;
     height: 60px;
     overflow: hidden;
-    background: url(/img/public_v2/pop_close2.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/pop_close2.png?v=1) no-repeat;
     background-size: 100%;
 }
 
@@ -362,7 +362,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
     width: 60px;
     height: 60px;
     overflow: hidden;
-    background: url(/img/public_v2/pop_close3.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/pop_close3.png?v=1) no-repeat;
     background-size: 100%;
 }
 
@@ -384,7 +384,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
     border-radius: 6px;
     width: 150px;
     height: 54px;
-    background: url(/img/public_v2/bg_button.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_button.png?v=1) no-repeat;
     background-size: 100% 100%;
     line-height: 54px;
     font-size: 22px;
@@ -405,12 +405,12 @@ input[type='checkbox']:checked+.g-lbltip::after {
 }
 
 .imgbox-3 {
-    background: url(/img/public_v2/bg_5.png) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_5.png) no-repeat;
     background-size: 100%;
 }
 
 .imgbox-4 {
-    background: url(/img/public_v2/bg_7.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_7.png?v=1) no-repeat;
     background-size: 100%;
 }
 
@@ -420,13 +420,13 @@ input[type='checkbox']:checked+.g-lbltip::after {
     margin: 0 auto;
     width: 100%;
     height: 100%;
-    background: url(/img/jewel/public/crystal.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/public/crystal.png?v=1) no-repeat;
     background-size: 100px;
     background-position: center;
 }
 
 .miyinpic {
-    background-image: url(/img/jewel/gemquiz/icon_guess1.png?v=1);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess1.png?v=1);
 }
 
 .pitypic {
@@ -434,7 +434,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
     margin: 0 auto;
     width: 100%;
     height: 100%;
-    background: url(/img/jewel/public/emo_pity.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/public/emo_pity.png?v=1) no-repeat;
     background-size: 100px;
     background-position: center;
 }
@@ -444,7 +444,7 @@ input[type='checkbox']:checked+.g-lbltip::after {
     margin: 0 auto;
     width: 45px;
     height: 45px;
-    background: url(/img/jewel/public/loading.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/public/loading.png?v=1) no-repeat;
     background-size: 100%;
     -webkit-animation: loading .8s steps(8) infinite both;
     animation: loading .8s steps(8) infinite both;
@@ -738,7 +738,7 @@ a:visited {
     width: 80px;
     height: 80px;
     display: inline-block;
-    background: url(/img/public_v2/head.png?v=2) no-repeat left center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/head.png?v=2) no-repeat left center;
     background-size: 100%;
 }
 
@@ -775,23 +775,23 @@ a:visited {
 }
 
 .header-own-list .header-own-list-algorithm {
-    background-image: url(/img/public_v2/icon_algorithm.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_algorithm.png?v=2);
 }
 
 .header-own-list .header-own-list-contact {
-    background-image: url(/img/public_v2/icon_contact.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_contact.png?v=2);
 }
 
 .header-own-list .header-own-list-bonus {
-    background-image: url(/img/public_v2/bonus.png?v=3);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bonus.png?v=3);
 }
 
 .header-own-list .header-own-list-logout {
-    background-image: url(/img/public_v2/logout.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/logout.png?v=2);
 }
 
 .header-own-list .header-own-list-shareaward {
-    background-image: url(/img/public_v2/icon_shareaward.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_shareaward.png?v=2);
 }
 
 .header-account {
@@ -822,7 +822,7 @@ a:visited {
     display: inline-block;
     width: 70px;
     height: 56px;
-    background-image: url(/img/public_v2/icon_menu.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_menu.png?v=2);
 }
 
 .header-balance-box {
@@ -834,7 +834,7 @@ a:visited {
 }
 
 .header-balance-box .header-icon-balance {
-    background: url(/img/public_v2/icon_balance.png?v=2) no-repeat left center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_balance.png?v=2) no-repeat left center;
     width: 50px;
     height: 50px;
     display: inline-block;
@@ -860,7 +860,7 @@ a:visited {
 }
 
 .header-balance-box .header-icon-choosecrypto {
-    background: url(/img/public_v2/icon_choose.png?v=2) no-repeat left center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_choose.png?v=2) no-repeat left center;
     background-size: 100% 100%;
     width: 50px;
     height: 50px;
@@ -879,7 +879,7 @@ a:visited {
 }
 
 .header-account-head .header-icon-head {
-    background: url(/img/public_v2/head.png?v=2) no-repeat left center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/head.png?v=2) no-repeat left center;
     background-size: 100% 100%;
     width: 50px;
     height: 50px;
@@ -916,7 +916,7 @@ a:visited {
 }
 
 .header-account-box .header-icon-eos {
-    background: url(/img/public_v2/icon_eos.png?v=2) no-repeat left center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_eos.png?v=2) no-repeat left center;
     width: 50px;
     height: 50px;
     display: inline-block;
@@ -926,7 +926,7 @@ a:visited {
 }
 
 .header-account-box .header-icon-trx {
-    background: url(/img/public_v2/icon_trx.png?v=2) no-repeat left center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_trx.png?v=2) no-repeat left center;
     width: 50px;
     height: 50px;
     display: inline-block;
@@ -972,12 +972,12 @@ a:visited {
 }
 
 .li-logintype-tronlink {
-    background: url(/img/public_v2/icon_login_tronlink.png?v=2) no-repeat 20px center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_login_tronlink.png?v=2) no-repeat 20px center;
     background-size: 50px 50px;
 }
 
 .li-logintype-scatter {
-    background: url(/img/public_v2/icon_login_scatter.png?v=2) no-repeat 20px center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_login_scatter.png?v=2) no-repeat 20px center;
     background-size: 50px 50px;
 }
 
@@ -1071,17 +1071,17 @@ a:visited {
 }
 
 .contactus .contactus-telegram {
-    background: url(/img/public_v2/telegram.png?v=2) no-repeat center center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/telegram.png?v=2) no-repeat center center;
     background-size: 100%;
 }
 
 .contactus .contactus-wechat {
-    background: url(/img/public_v2/wechat.png?v=2) no-repeat center center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/wechat.png?v=2) no-repeat center center;
     background-size: 100%;
 }
 
 .contactus .contactus-huoxin {
-    background: url(/img/public_v2/huoxin.png?v=2) no-repeat center center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/huoxin.png?v=2) no-repeat center center;
     background-size: 100%;
 }
 
@@ -1105,7 +1105,7 @@ a:visited {
     position: absolute;
     left: -5px;
     top: -370px;
-    background: url(/img/public_v2/h_qrcode.jpg?v=2) no-repeat center center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/h_qrcode.jpg?v=2) no-repeat center center;
     background-size: 100%;
 }
 
@@ -1222,19 +1222,19 @@ a:visited {
 }
 
 .calc .i-jewel-red {
-    background-image: url(/img/jewel/gemquiz/icon_guess1.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess1.png?v=2);
 }
 
 .calc .i-jewel-green {
-    background-image: url(/img/jewel/gemquiz/icon_guess2.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess2.png?v=2);
 }
 
 .calc .i-jewel-blue {
-    background-image: url(/img/jewel/gemquiz/icon_guess3.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess3.png?v=2);
 }
 
 .calc .i-jewel-purple {
-    background-image: url(/img/jewel/gemquiz/icon_guess4.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess4.png?v=2);
 }
 
 /* game box */
@@ -1242,7 +1242,7 @@ a:visited {
 .gamebox {
     width: 100%;
     height: 570px;
-    background: url(/img/luckyminerv2/bg_1.png?v=3) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/luckyminerv2/bg_1.png?v=3) no-repeat;
     background-size: 100% 570px;
     margin-bottom: 7px;
 }
@@ -1423,7 +1423,7 @@ a:visited {
     position: absolute;
     right: 10px;
     top: 15px;
-    background: url(/img/public_v2/icon_arrow1.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_arrow1.png?v=1) no-repeat;
     background-size: 17px 10px;
     background-position: center;
     content: "";
@@ -1469,7 +1469,7 @@ a:visited {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background: url(/img/public_v2/icon_choose1.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_choose1.png?v=1) no-repeat;
     background-size: 30px 30px;
     background-position: center;
     vertical-align: middle;
@@ -1491,23 +1491,23 @@ a:visited {
 }
 
 .icon-box ul li i.i-jewel-red {
-    background-image: url(/img/jewel/gemquiz/icon_guess1.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess1.png?v=2);
 }
 
 .icon-box ul li i.i-jewel-green {
-    background-image: url(/img/jewel/gemquiz/icon_guess2.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess2.png?v=2);
 }
 
 .icon-box ul li i.i-jewel-blue {
-    background-image: url(/img/jewel/gemquiz/icon_guess3.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess3.png?v=2);
 }
 
 .icon-box ul li i.i-jewel-purple {
-    background-image: url(/img/jewel/gemquiz/icon_guess4.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess4.png?v=2);
 }
 
 .icon-box ul li i.i-jewel-question {
-    background-image: url(/img/jewel/gemquiz/icon_question.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_question.png?v=2);
     background-size: 70%;
 }
 
@@ -1613,19 +1613,19 @@ a:visited {
 }
 
 .jewelsum .i-jewel-red {
-    background-image: url(/img/jewel/gemquiz/icon_guess1.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess1.png?v=2);
 }
 
 .jewelsum .i-jewel-green {
-    background-image: url(/img/jewel/gemquiz/icon_guess2.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess2.png?v=2);
 }
 
 .jewelsum .i-jewel-blue {
-    background-image: url(/img/jewel/gemquiz/icon_guess3.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess3.png?v=2);
 }
 
 .jewelsum .i-jewel-purple {
-    background-image: url(/img/jewel/gemquiz/icon_guess4.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess4.png?v=2);
 }
 
 /* 猜中赚part */
@@ -1664,19 +1664,19 @@ a:visited {
 }
 
 .handler-list li .icon-times.i-times-2 {
-    background-image: url(/img/public_v2/icon_times_2.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_times_2.png?v=2);
 }
 
 .handler-list li .icon-times.i-times-3 {
-    background-image: url(/img/public_v2/icon_times_3.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_times_3.png?v=2);
 }
 
 .handler-list li .icon-times.i-times-6 {
-    background-image: url(/img/public_v2/icon_times_6.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_times_6.png?v=2);
 }
 
 .handler-list li .icon-times.i-times-50 {
-    background-image: url(/img/public_v2/icon_times_50.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_times_50.png?v=2);
 }
 
 /* 金银铜矿 图标*/
@@ -1713,19 +1713,19 @@ a:visited {
 }
 
 .handler-list .i-jewel-red {
-    background-image: url(/img/jewel/gemquiz/icon_guess1.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess1.png?v=2);
 }
 
 .handler-list .i-jewel-green {
-    background-image: url(/img/jewel/gemquiz/icon_guess2.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess2.png?v=2);
 }
 
 .handler-list .i-jewel-blue {
-    background-image: url(/img/jewel/gemquiz/icon_guess3.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess3.png?v=2);
 }
 
 .handler-list .i-jewel-purple {
-    background-image: url(/img/jewel/gemquiz/icon_guess4.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_guess4.png?v=2);
 }
 
 .handler-list p {
@@ -1774,7 +1774,7 @@ a:visited {
 .bet-title {
     width: 233px;
     height: 50px;
-    background-image: url(/img/public_v2/bg_1.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_1.png?v=2);
     margin: 0 auto;
     text-align: center;
     font-size: 26px;
@@ -1862,7 +1862,7 @@ button.btn-double {
     width: 70px;
     padding: 0;
     background-color: rgba(196, 125, 38, 1);
-    background-image: url(/img/jewel/gemquiz/icon_add.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_add.png?v=2);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40px 40px;
@@ -1874,7 +1874,7 @@ button.btn-double {
     width: 70px;
     padding: 0;
     background-color: rgba(196, 125, 38, 1);
-    background-image: url(/img/jewel/gemquiz/icon_reduce.png?v=2);
+    background-image: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/icon_reduce.png?v=2);
     background-repeat: no-repeat;
     background-size: 40px 40px;
     background-position: center;
@@ -1900,7 +1900,7 @@ button.btn-reset {
 .btn-pay {
     height: 88px;
     width: 690px;
-    background: url(/img/public_v2/bg_button.png?v=3) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_button.png?v=3) no-repeat;
     background-size: 100% 100%;
     border: none;
 }
@@ -1967,7 +1967,7 @@ button.btn-reset {
     top: 334px;
     width: 50px;
     height: 50px;
-    background: url(/img/public_v2/icon_rule.png?v=3) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_rule.png?v=3) no-repeat;
     background-size: 100%;
 }
 
@@ -1977,7 +1977,7 @@ button.btn-reset {
     top: 178px;
     width: 50px;
     height: 50px;
-    background: url(/img/jewel/gemquiz/ticket.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/ticket.png?v=2) no-repeat;
     background-size: 100%;
 }
 
@@ -1993,7 +1993,7 @@ button.btn-reset {
     top: 0;
     width: 50px;
     height: 50px;
-    background: url(/img/public_v2/icon_notice.png?v=3) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_notice.png?v=3) no-repeat;
     background-size: 100%;
 }
 
@@ -2001,7 +2001,7 @@ button.btn-reset {
     position: absolute;
     top: -10px;
     left: -20px;
-    background: url(/img/public_v2/reddot.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/reddot.png?v=1) no-repeat;
     background-size: 100%;
     width: 32px;
     height: 32px;
@@ -2013,7 +2013,7 @@ button.btn-reset {
     top: 466px;
     width: 50px;
     height: 50px;
-    background: url(/img/public_v2/icon_bonus.png?v=1) no-repeat center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_bonus.png?v=1) no-repeat center;
     background-size: 100%;
     z-index: 111;
 }
@@ -2024,7 +2024,7 @@ button.btn-reset {
     top: 566px;
     width: 50px;
     height: 50px;
-    background: url(/img/public_v2/icon_betrank.png?v=1) no-repeat center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_betrank.png?v=1) no-repeat center;
     background-size: 100%;
     z-index: 111;
 }
@@ -2035,7 +2035,7 @@ button.btn-reset {
     top: 278px;
     width: 40px;
     height: 40px;
-    background: url(/img/public_v2/arrow.png?v=1) no-repeat center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/arrow.png?v=1) no-repeat center;
     background-size: 100% 100%;
     z-index: 111;
 }
@@ -2046,7 +2046,7 @@ button.btn-reset {
     top: 666px;
     width: 50px;
     height: 50px;
-    background: url(/img/public_v2/icon_awardrank.png?v=1) no-repeat center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_awardrank.png?v=1) no-repeat center;
     background-size: 100%;
     z-index: 111;
 }
@@ -2073,7 +2073,7 @@ button.btn-reset {
     position: relative;
     margin-top: 12px;
     left: 13px;
-    background: url(/img/public_v2/icon_share.png?v=1) no-repeat center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_share.png?v=1) no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -2081,7 +2081,7 @@ button.btn-reset {
     position: relative;
     margin-top: 15px;
     left: 13px;
-    background: url(/img/public_v2/icon_rule.png?v=1) no-repeat center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_rule.png?v=1) no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -2089,7 +2089,7 @@ button.btn-reset {
     position: relative;
     margin-top: 15px;
     left: 13px;
-    background: url(/img/public_v2/icon_notice.png?v=1) no-repeat center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_notice.png?v=1) no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -2097,7 +2097,7 @@ button.btn-reset {
     position: relative;
     margin-top: 15px;
     left: 13px;
-    background: url(/img/public_v2/icon_bonus.png?v=1) no-repeat center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_bonus.png?v=1) no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -2125,42 +2125,42 @@ button.btn-reset {
 
 .c-icon-share {
     left: 13px;
-    background: url(/img/public_v2/icon_share.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_share.png?v=1) no-repeat;
     background-size: 50px 50px;
     background-position: 10px;
 }
 
 .c-icon-rule {
     left: 13px;
-    background: url(/img/public_v2/icon_rule.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_rule.png?v=1) no-repeat;
     background-size: 50px 50px;
     background-position: 10px;
 }
 
 .c-icon-notice {
     left: 13px;
-    background: url(/img/public_v2/icon_notice.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_notice.png?v=1) no-repeat;
     background-size: 50px 50px;
     background-position: 10px;
 }
 
 .c-icon-bonus {
     left: 13px;
-    background: url(/img/public_v2/icon_bonus.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_bonus.png?v=1) no-repeat;
     background-size: 50px 50px;
     background-position: 10px;
 }
 
 .c-icon-betrank {
     left: 13px;
-    background: url(/img/public_v2/icon_betrank.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_betrank.png?v=1) no-repeat;
     background-size: 50px 50px;
     background-position: 10px;
 }
 
 .c-icon-awardrank {
     left: 13px;
-    background: url(/img/public_v2/icon_awardrank.png?v=1) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/icon_awardrank.png?v=1) no-repeat;
     background-size: 50px 50px;
     background-position: 10px;
 }
@@ -2463,7 +2463,7 @@ button.btn-reset {
 
 @font-face {
     font-family: 'MNHZGB';
-    src: url(data:application/x-font-ttf;charset=utf-8;base64,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) format('truetype'), url('/img/jewel/gemquiz/MNHZGB_font.svg#MNHZGB_font') format('svg');
+    src: url(data:application/x-font-ttf;charset=utf-8;base64,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) format('truetype'), url('https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/MNHZGB_font.svg#MNHZGB_font') format('svg');
     /* iOS 4.1- */
     font-style: normal;
     font-weight: normal;
@@ -2523,7 +2523,7 @@ button.btn-reset {
 .quiz-pop .g-pop-ver .ver-btn-box button {
     width: 636px;
     height: 80px;
-    background: url(/img/public_v2/bg_button.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_button.png?v=2) no-repeat;
     background-size: 100% 100%;
     border: none;
     outline: none;
@@ -2675,7 +2675,7 @@ button.btn-reset {
 .handler-toggle,
 .handler-toggle em,
 .btn-quiz-recharge {
-    background: url(/img/jewel/gemquiz/spr_ectbtn.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/spr_ectbtn.png?v=2) no-repeat;
     background-size: 150px auto;
     overflow: hidden;
 }
@@ -2749,7 +2749,7 @@ button.btn-reset {
 .quiz-rank-listbox h3,
 .quiz-rank-toplist li:first-child::before,
 .quiz-rank-toplist li:first-child::after {
-    background: url(/img/jewel/gemquiz/spr_rank_ico.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/spr_rank_ico.png?v=2) no-repeat;
     background-size: 250px auto;
 }
 
@@ -2774,7 +2774,7 @@ button.btn-reset {
     width: 465px;
     height: 110px;
     text-align: center;
-    background: url(/img/jewel/gemquiz/tit_bg.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/tit_bg.png?v=2) no-repeat;
     background-size: 465px auto;
 }
 
@@ -2957,7 +2957,7 @@ button.btn-reset {
     vertical-align: middle;
     width: 50px;
     height: 50px;
-    background: url(/img/miner/gemquiz/spr_rank.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/miner/gemquiz/spr_rank.png?v=2) no-repeat;
     background-size: 650px auto;
     overflow: hidden;
 }
@@ -3183,7 +3183,7 @@ button.btn-reset {
     left: 60px;
     width: 400px;
     height: 324px;
-    background: url(/img/jewel/gemquiz/pop_cou.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/pop_cou.png?v=2) no-repeat;
 }
 
 .cou-pop-num {
@@ -3216,7 +3216,7 @@ button.btn-reset {
     display: block;
     width: 323px;
     height: 103px;
-    background: url(/img/jewel/gemquiz/get_now_btn.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/get_now_btn.png?v=2) no-repeat;
     outline: none;
     border: 0;
     margin: 30px auto;
@@ -3224,7 +3224,7 @@ button.btn-reset {
 
 .cun-pop-close {
     position: absolute;
-    background: url(/img/jewel/gemquiz/pop_close.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/jewel/gemquiz/pop_close.png?v=2) no-repeat;
     background-size: 100%;
     width: 30px;
     height: 30px;
@@ -3235,7 +3235,7 @@ button.btn-reset {
 .quiz-pop .g-pop-share {
     height: 620px;
     width: 600px;
-    background: url(/img/public_v2/bg_4.png?v=2) no-repeat;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/bg_4.png?v=2) no-repeat;
     background-size: 100% 100%;
     border: none;
 }
@@ -3326,7 +3326,7 @@ button.btn-reset {
 .g-pop-contact .g-pop-contact-content .contactus-telegram {
     width: 50px;
     height: 50px;
-    background: url(/img/public_v2/telegram.png?v=2) no-repeat center center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/telegram.png?v=2) no-repeat center center;
     background-size: 100%;
     display: inline-block;
     position: absolute;
@@ -3369,7 +3369,7 @@ button.btn-reset {
 .g-pop-contact .g-pop-contact-content .contactus-huoxin {
     width: 50px;
     height: 50px;
-    background: url(/img/public_v2/huoxin.png?v=2) no-repeat center center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/huoxin.png?v=2) no-repeat center center;
     background-size: 100%;
     display: inline-block;
     position: absolute;
@@ -3389,7 +3389,7 @@ button.btn-reset {
 .g-pop-contact .g-pop-contact-content .contactus-huoxin {
     width: 50px;
     height: 50px;
-    background: url(/img/public_v2/huoxin.png?v=2) no-repeat center center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/huoxin.png?v=2) no-repeat center center;
     background-size: 100%;
     display: inline-block;
 }
@@ -3409,7 +3409,7 @@ button.btn-reset {
 .g-pop-contact .g-pop-contact-content .contactus-link-huoxin .contactus-qrcode-huoxin {
     width: 217px;
     height: 217px;
-    background: url(/img/public_v2/qrcode.jpg?v=2) no-repeat center center;
+    background: url(https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/img/public_v2/qrcode.jpg?v=2) no-repeat center center;
     background-size: 100%;
     margin: 10px auto;
 }
