@@ -2997,7 +2997,7 @@ button.btn-reset {
 .i-quiz-rank-3 {
     width: 62px;
     height: 80px;
-    -webkit-transform: scale(.7);
+    -webkit-transform: scale(.48);
 }
 
 .i-quiz-rank-2 {
@@ -4364,7 +4364,7 @@ button.btn-reset {
 }
 
 .payarea .minerswitch-input:checked+.minerswitch-core:before {
-    transform: scale(0);
+    transform: scale(0.48);
 }
 
 .payarea .minerswitch-input:checked+.minerswitch-core:after {
