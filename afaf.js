@@ -4026,8 +4026,6 @@
             }, "undefined" != typeof window && window.Vue && window.Vue.use(D), D
         });
 
-    </script>
-    <script>
         (function(global) {
             var _common = {};
             _common.getCookie = function(name) {
@@ -4109,8 +4107,6 @@
             }
         })((typeof window !== "undefined" ? window: global));
 
-    </script>
-    <script>
         window.Miner = (function() {
             const OUR_GAME = isDev ? 'luckymultisc': 'luckyminersh';
 
