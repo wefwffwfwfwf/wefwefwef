@@ -1,8 +1,3 @@
-       /*!
- * Vue.js v2.5.21
- * (c) 2014-2018 Evan You
- * Released under the MIT License.
- */
         ! function(e, t) {
             "object" == typeof exports && "undefined" != typeof module ? module.exports = t(): "function" == typeof define && define.amd ? define(t): e.Vue = t()
         }
@@ -3383,8 +3378,7 @@
             }, ln.compile = Aa, ln
         });
 
-    </script>
-    <script>
+  
         ! function(t, e) {
             "object" == typeof exports && "undefined" != typeof module ? module.exports = e(): "function" == typeof define && define.amd ? define(e): t.VueResource = e()
         }
