@@ -222,12 +222,12 @@
     } else {
        
     }
-    var NodePool = ConfigNodePool.concat();
-    var nodePoolReqTime = [];
-    var curNodePoolIndex = 0;
-    var curNodePoolErrNum = 0;
-    var nodePoolErrMax = 3;
-    var nodePoolConfirm = false;
+//     var NodePool = ConfigNodePool.concat();
+//     var nodePoolReqTime = [];
+//     var curNodePoolIndex = 0;
+//     var curNodePoolErrNum = 0;
+//     var nodePoolErrMax = 3;
+//     var nodePoolConfirm = false;
     // let _network = ScatterJS.Network.fromJson(NodePool[curNodePoolIndex]);
     // console.log(_network)
     // const Api = eosjs_api.default;
