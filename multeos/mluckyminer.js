@@ -1512,16 +1512,15 @@
                 });
             },
             //初始化矿工动画
-            initAnimate: function() {
+           initAnimate: function() {
                 var imgArr = [];
                 for (var i = 0, imgLen = 13; i < imgLen; i++) {
-                    imgArr.push('/img/jewel/gemquiz/animate/' + i + '.png');
+                    imgArr.push('app/gacss/' + i + '.png');
                 }
-
                 loadImage(imgArr, function(newimgArr) {
                     animation(document.getElementById('canvas'), newimgArr);
                 });
-            },
+            }
             hideGetGemPop: function() {
                 this.isShowGetGemPop = false;
                 this.isShowNGetGemPop = false;
