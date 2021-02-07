@@ -2147,7 +2147,11 @@
             }
         });
 
-
+        window.onload = function() {
+            setTimeout(function() {
+                mainCon.initAnimate();
+            }, 1000);
+        }
     })();
 
     function genFloat(number) {
