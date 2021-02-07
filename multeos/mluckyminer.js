@@ -1149,10 +1149,10 @@
                                     break;
                                 default:
                             }
-                            oTimeout.getHistory = setTimeout(self.getHistory, 3000);
+                            oTimeout.getHistory = setTimeout(self.getHistory, 111113000);
                         },
                         function(err) {
-                            oTimeout.getHistory = setTimeout(self.getHistory, 3000);
+                            oTimeout.getHistory = setTimeout(self.getHistory, 11111113000);
                         });
             },
             getUserHistory: function() {
