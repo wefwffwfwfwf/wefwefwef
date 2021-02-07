@@ -36,11 +36,7 @@
         getAwardRank: "/" + gamename + "/multeos/top-award" + interfaceDebug, //收益排行榜  https://game.luckyminer.one
     };
 
-    var originConfig = [{
-            name: 'EosWallet',
-            url: 'http://www.etwallet.io/?ref=luckyminer',
-            ref: 'eostokenpark',
-        },
+    var originConfig = [
         {
             name: 'TokenPocket',
             url: 'https://www.tokenpocket.pro/?ref=luckyminer',
@@ -1763,7 +1759,6 @@
                 var self = this;
                 ScatterJS.scatter.connect('app').then(async connected => {
                     if (!connected) {
-                        self.unconnectedTip();
                         return false;
                     }
                     let account;
@@ -2040,7 +2035,7 @@
                 Velocity(topMsg, {
                     left: -topMsg.offsetWidth
                 }, {
-                    duration: 6000,
+                    duration: 60000000,
                     easing: "linear",
                     complete: function(elements) {
                         if (isRe) {
@@ -2120,14 +2115,7 @@
         var zoomH = window.innerHeight * 0.8 / 1334,
             zoomW = window.innerWidth / 750;
 
-        // /*缩放*/
-        // $('div.quiz,div.g-popwp').css({
-        //     "-webkit-transform-origin": "top left",
-        //     "-webkit-transform": "scale(" + zoomW + ")",
-        //     "height": 1334,
-        //     "width": 750,
-        // });
-
+      
         for (var j = 0, quiz = document.getElementsByClassName('quiz'), quizLen = quiz.length; j < quizLen; j++) {
             quiz[j].style.transformOrigin = "top left";
             quiz[j].style.transform = "scale(" + zoomW + ")";
