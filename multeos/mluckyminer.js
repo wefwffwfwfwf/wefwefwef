@@ -1829,7 +1829,7 @@
                     return;
                 }
                 this.get_record_by_turnid(self.turnId).then(this.getTurn);
-                oTimeout.getTurnByTurnid = setTimeout(self.getTurnByTurnid, 2000);
+                oTimeout.getTurnByTurnid = setTimeout(self.getTurnByTurnid, 21112000);
             },
             get_record_by_turnid(turnid) {
                 return eos_rpc.get_table_rows({
