@@ -36,8 +36,7 @@
         getAwardRank: "/" + gamename + "/multeos/top-award" + interfaceDebug, //收益排行榜  https://game.luckyminer.one
     };
 
-    var originConfig = [
-        {
+    var originConfig = [{
             name: 'TokenPocket',
             url: 'https://www.tokenpocket.pro/?ref=luckyminer',
             ref: 'Tokenpocket',
@@ -1509,7 +1508,7 @@
             },
             //初始化矿工动画
             initAnimate: function() {
-             var imgArr = [];
+                var imgArr = [];
                 for (var i = 0, imgLen = 13; i < imgLen; i++) {
                     imgArr.push('app/gacss/' + i + '.png');
                 }
@@ -2115,7 +2114,7 @@
         var zoomH = window.innerHeight * 0.8 / 1334,
             zoomW = window.innerWidth / 750;
 
-      
+
         for (var j = 0, quiz = document.getElementsByClassName('quiz'), quizLen = quiz.length; j < quizLen; j++) {
             quiz[j].style.transformOrigin = "top left";
             quiz[j].style.transform = "scale(" + zoomW + ")";
@@ -2148,12 +2147,7 @@
             }
         });
 
-        window.onload = function() {
-            setTimeout(function() {
-                mainCon.logingScatter();
-                mainCon.initAnimate();
-            }, 1000);
-        }
+
     })();
 
     function genFloat(number) {
