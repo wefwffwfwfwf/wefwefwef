@@ -1,11 +1,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.eot?vlrqcz');
-  src:  url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.eot?vlrqcz#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.ttf?vlrqcz') format('truetype'),
-    url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.woff?vlrqcz') format('woff'),
-    url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.svg?vlrqcz#icomoon') format('svg');
+  src:  url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/5612a15be0f0f1059d7e57652d30fc9d601c60ba/icomoon.eot?vlrqcz');
+  src:  url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/5612a15be0f0f1059d7e57652d30fc9d601c60ba/icomoon.eot?vlrqcz#iefix') format('embedded-opentype'),
+    url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/5612a15be0f0f1059d7e57652d30fc9d601c60ba/icomoon.ttf?vlrqcz') format('truetype'),
+    url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/5612a15be0f0f1059d7e57652d30fc9d601c60ba/icomoon.woff?vlrqcz') format('woff'),
+    url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/5612a15be0f0f1059d7e57652d30fc9d601c60ba/icomoon.svg?vlrqcz#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
