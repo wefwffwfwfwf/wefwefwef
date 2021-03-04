@@ -14,7 +14,1031 @@
 
 
 
+/*===============================================
+ main css 
+================================================*/
 
+.dz-main .dz-appbar{
+    box-sizing: border-box;
+    padding: 55px 15px 11px 15px;
+}
+
+
+.dz-main .dz-appbar button {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: SFProReg;
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+}
+.dz-main .dz-appbar .dz-left{
+    margin-left: -7px;
+}
+.dz-main .dz-appbar .dz-left i{
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.dz-main .dz-appbar h1{
+    font-size: 34px;
+    line-height: 41px;
+    text-transform: capitalize;
+    color: var(--grey70);
+    font-family: SFProBold;
+    padding-top: 15px;
+}
+.dz-main .dz-content{
+    padding: 15px;
+}
+.dz-main .dz-content:before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: hsla(0, 0%, 0%, 0.24);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.dz-main.dz-hide .dz-content:before{
+    display: none;
+}
+/*===============================================
+ sheet css 
+================================================*/
+
+.dz-sheet{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    background: var(--white);
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.dz-sheet.dz-hide{
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+/*===============================================
+ sheet 1 css 
+================================================*/
+.dz-sheet1{
+    padding: 14px 15px 54px 15px;
+}
+.dz-sheet1 .dz-title{
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--grey10);
+}
+.dz-sheet1 .dz-title h2{
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--grey70);
+    font-family: SFProSemiBold;
+}
+.dz-sheet1 .dz-title button{
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--blue);
+    font-family: SFProReg;
+}
+.dz-sheet1 ul{
+    margin-right: -15px;
+}
+.dz-sheet1 ul li{
+    padding: 14px 25px 14px 0;
+    border-bottom: 1px solid var(--grey10);
+}
+.dz-sheet1 ul li:last-child{
+    border: 0;
+}
+.dz-sheet1 ul li .dz-left-part,
+.dz-sheet1 ul li .dz-right-part{
+    display: flex;
+    align-items: center;
+}
+.dz-sheet1 ul li .dz-left-part p,
+.dz-sheet1 ul li .dz-right-part p{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: SFProReg;
+}
+.dz-sheet1 ul li .dz-left-part p{
+    color: var(--grey40);
+}
+.dz-sheet1 ul li .dz-right-part p{
+    color: var(--grey70);
+    text-align: right;
+}
+.dz-sheet1 ul li .dz-left-part .dz-icon{
+    margin-right: 15px;
+    width: 28px;
+}
+.dz-sheet1 ul li .dz-left-part .dz-icon i{
+    color: var(--grey20);
+    font-size: 22px;
+}
+.dz-sheet1 ul li .dz-left-part .dz-icon .dz-icon-card{
+    font-size: 18px;
+}
+.dz-sheet1 ul li .dz-right-part .dz-icon{
+    padding-left: 16px;
+}
+.dz-sheet1 ul li .dz-right-part .dz-icon i{
+    color: var(--blue);
+    font-size: 16px;
+}
+.dz-sheet1 ul .dz-cart{
+    display: flex;
+    align-items: center;
+}
+.dz-sheet1 ul .dz-cart .dz-icon{
+    padding-right: 15px;
+}
+.dz-sheet1 ul .dz-cart .dz-right-part{
+    justify-content: space-between;
+}
+.dz-sheet1 ul .dz-cart .dz-right-part .dz-text-left p{
+    text-align: left;
+    padding-left: 0;
+    color: var(--grey40);
+}
+.dz-sheet1 ul .dz-cart .dz-right-part .dz-text-right{
+    padding-right: 24px;
+}
+.dz-sheet1 ul .dz-cart .dz-right-part .dz-text-right p{
+    padding-left: 0;
+}
+.dz-sheet1 ul .dz-cart .dz-right-part .dz-total{
+    background: var(--gradient-pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dz-sheet1 .dz-bottom{
+    text-align: center;
+}
+.dz-sheet1 .dz-bottom .dz-icon{
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.dz-sheet1 .dz-bottom .dz-icon i{
+    font-size: 40px;
+    color: var(--teal);
+}
+.dz-sheet1 .dz-bottom a{
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--teal);
+    font-family: SFProSemiBold;
+}
+/*===============================================
+ sheet 1 dark css 
+================================================*/
+.dz-sheet1.dz-dark-mode{
+    background: var(--grey60);
+}
+.dz-sheet1.dz-dark-mode .dz-title h2{
+    color: var(--white);
+}
+.dz-sheet1.dz-dark-mode .dz-title button{
+    color: var(--grey0);
+}
+.dz-sheet1.dz-dark-mode ul li .dz-left-part p {
+    color: var(--grey40);
+}
+.dz-sheet1.dz-dark-mode ul li .dz-right-part p {
+    color: var(--white);
+}
+.dz-sheet1.dz-dark-mode ul .dz-cart .dz-right-part .dz-total {
+    background: var(--green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dz-sheet1.dz-dark-mode .dz-bottom .dz-icon i {
+    color: var(--green);
+}
+.dz-sheet1.dz-dark-mode .dz-bottom a {
+    color: var(--white);
+}
+/*===============================================
+ sheet 2 css 
+================================================*/
+.dz-sheet2{
+    padding: 16px 15px 52px 15px;
+}
+.dz-sheet2 .dz-author{
+    position: relative;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--grey10);
+}
+.dz-sheet2 .dz-author h2{
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--grey70);
+    font-family: SFProBold;
+    text-transform: capitalize;
+}
+.dz-sheet2 .dz-author p{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--green);
+    font-family: SFProBold;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+.dz-sheet2 .dz-author p span{
+    color: var(--grey40);
+    font-family: SFProReg;
+}
+.dz-sheet2 .dz-author .dz-img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 15px;
+    top: -55px;
+}
+.dz-sheet2 .dz-author .dz-img img{
+    border-radius: 50%;
+    width: 100%;
+}
+.dz-sheet2 .dz-author .dz-img:after{
+    content: '';
+    height: 22px;
+    width: 22px;
+    background: url(../images/status-green.png) no-repeat center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.dz-sheet2 ul{
+    padding-top: 14px;
+    padding-bottom: 30px;
+}
+.dz-sheet2 ul li{
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+    margin-bottom: 10px;
+}
+.dz-sheet2 ul li .dz-icon{
+    margin-right: 15px;
+    width: 28px;
+    text-align: center;
+}
+.dz-sheet2 ul li .dz-icon i{
+    color: var(--grey40);
+    font-size: 20px;
+}
+.dz-sheet2 ul li .dz-text{
+    flex: 1;
+}
+.dz-sheet2 ul li .dz-text h3,
+.dz-sheet2 .dz-buttons a h3{
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--grey70);
+    font-family: SFProReg;
+    font-weight: normal;
+}
+.dz-sheet2 ul li .dz-strong h3{
+    font-family: SFProSemiBold;
+}
+.dz-sheet2 ul li .dz-text p{
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--grey40);
+    font-family: SFProReg;
+}
+.dz-sheet2 .dz-buttons a{
+    padding: 0 8px 0 16px;
+    border-radius: 8px;
+    border: 1px solid var(--grey30);
+}
+.dz-sheet2 .dz-buttons a .dz-right-part{
+    display: flex;
+    align-items: center;
+}
+.dz-sheet2 .dz-buttons a .dz-icon i{
+    color: var(--grey30);
+    padding-left: 16px;
+}
+.dz-sheet2 .dz-buttons a h3{
+    line-height: 48px;
+}
+.dz-sheet2 .dz-buttons a p{
+    line-height: 48px;
+    font-size: 15px;
+    color: var(--blue);
+    font-family: SFProReg;
+}
+.dz-sheet2 .dz-buttons .dz-btn{
+    display: block;
+    width: 100%;
+    border: 0;
+    line-height: 50px;
+    background: var(--teal);
+    color: var(--white);
+    font-size: 17px;
+    font-family: SFProSemiBold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 14px;
+}
+
+/*===============================================
+ sheet 2 dark css 
+================================================*/
+.dz-sheet2.dz-dark-mode{
+    background: var(--grey60);
+}
+.dz-sheet2.dz-dark-mode .dz-author h2 {
+    color: var(--white);
+}
+.dz-sheet2.dz-dark-mode .dz-author p span {
+    color: var(--grey0);
+}
+.dz-sheet2.dz-dark-mode ul li .dz-text h3 ,
+.dz-sheet2.dz-dark-mode ul li .dz-icon i{
+    color: var(--white);
+}
+.dz-sheet2.dz-dark-mode ul li .dz-text p {
+    color: var(--grey30);
+}
+.dz-sheet2.dz-dark-mode .dz-buttons a {
+    background: var(--grey70);
+}
+.dz-sheet2.dz-dark-mode .dz-buttons a h3{
+    color: var(--white);
+}
+.dz-sheet2.dz-dark-mode .dz-buttons a p{
+    color: var(--green);
+}
+.dz-sheet2.dz-dark-mode .dz-buttons .dz-btn{
+    background: var(--white);
+    color: var(--black);
+}
+/*===============================================
+ sheet 3 css 
+================================================*/
+.dz-sheet3{
+    padding: 8px 15px 54px 15px;
+}
+.dz-sheet3 .dz-shape{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.dz-sheet3 h1{
+    font-size: 34px;
+    line-height: 41px;
+    text-transform: capitalize;
+    color: var(--grey70);
+    font-family: SFProBold;
+    text-align: center;
+}
+.dz-sheet3 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--grey10);
+}
+.dz-sheet3 ul li button{
+    border-radius: 50%;
+}
+.dz-sheet3 ul li button img{
+    width: 100%;
+}
+.dz-sheet3 ul li .dz-active{
+    border: 8px solid var(--grey10);
+}
+.dz-sheet3 .dz-range-slider{
+    position: relative;
+    border-bottom: 1px solid var(--grey10);
+}
+.dz-sheet3 .dz-range-slider .dz-slide {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 82%;
+    height: 2px;
+    background: linear-gradient(to right, #FF9500 0%, #FF9500 50%, #e6e4ea 50%, #e6e4ea 100%);
+    outline: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+    border-radius: 99px;
+    margin: 40px 32px;
+}
+
+.dz-sheet3 .dz-range-slider .dz-slide::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 1px solid var(--grey30);
+    cursor: pointer;
+}
+
+.dz-sheet3 .dz-range-slider .dz-slide::-moz-range-thumb {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 1px solid var(--grey30);
+    cursor: pointer;
+}
+.dz-sheet3 .dz-range-slider .dz-icon-left,
+.dz-sheet3 .dz-range-slider .dz-icon-right{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dz-sheet3 .dz-range-slider .dz-icon-left{
+    left: 0;
+}
+.dz-sheet3 .dz-range-slider .dz-icon-right{
+    right: 0;
+}
+.dz-sheet3 .dz-range-slider .dz-icon-left i,
+.dz-sheet3 .dz-range-slider .dz-icon-right i{
+    font-size: 20px;
+    color: var(--grey40);
+}
+.dz-sheet3 .dz-option{
+    padding-top: 24px;
+}
+.dz-sheet3 .dz-option .dz-count{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid var(--grey20);
+}
+.dz-sheet3 .dz-option .dz-count button{
+    width: 40px;
+    height: 100%;
+}
+.dz-sheet3 .dz-option .dz-count .dz-plus i{
+    color: var(--green);
+    line-height: 36px;
+}
+.dz-sheet3 .dz-option .dz-count .dz-minus i{
+    color: var(--orange);
+    font-size: 2px;
+    line-height: 36px;
+}
+.dz-sheet3 .dz-option .dz-count h3,
+.dz-sheet3 .dz-option a p,
+.dz-sheet3 .dz-more-option h3{
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--grey70);
+}
+.dz-sheet3 .dz-option .dz-count h3{
+    font-family: SFProSemiBold;
+    width: 46px;
+    text-align: center;
+}
+.dz-sheet3 .dz-option{
+    margin-bottom: 56px;
+}
+.dz-sheet3 .dz-option .dz-icon i{
+    color: var(--grey30);
+    padding-left: 16px;
+    font-size: 16px;
+}
+.dz-sheet3 .dz-option a{
+    display: flex;
+    align-items: center;
+}
+.dz-sheet3 .dz-option a p{
+    font-family: SFProReg;
+    padding-right: 4px;
+}
+.dz-sheet3 .dz-more-option p{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey40);
+    font-family: SFProReg;
+    text-transform: uppercase;
+}
+.dz-sheet3 .dz-more-option h3{
+    font-family: SFProReg;
+    padding-top: 6px;
+    font-weight: normal;
+}
+.dz-sheet3 .dz-more-option button{
+    line-height: 50px;
+    background: var(--green);
+    padding: 0 20px;
+    font-size: 17px;
+    color: var(--white);
+    font-family: SFProSemiBold;
+    border-radius: 8px;
+}
+/*===============================================
+ sheet 3 dark css 
+================================================*/
+.dz-sheet3.dz-dark-mode{
+    background: var(--grey60);
+}
+.dz-sheet3.dz-dark-mode h1{
+    color: var(--white);
+}
+.dz-sheet3.dz-dark-mode ul li .dz-active {
+    border-color: var(--black);
+}
+.dz-sheet3.dz-dark-mode .dz-range-slider .dz-slide {
+    background: linear-gradient(to right, #34C759 0%, #34C759 50%, #000 50%, #000 100%);
+}
+.dz-sheet3.dz-dark-mode .dz-range-slider .dz-slide::-webkit-slider-thumb {
+    background: var(--gradient-grey);
+}
+.dz-sheet3.dz-dark-mode .dz-range-slider .dz-slide::-moz-range-thumb {
+    background: var(--gradient-grey);
+}
+.dz-sheet3.dz-dark-mode .dz-range-slider .dz-icon-left i, 
+.dz-sheet3.dz-dark-mode .dz-range-slider .dz-icon-right i {
+    color: var(--white);
+}
+.dz-sheet3.dz-dark-mode .dz-option .dz-count {
+    border: 0;
+}
+.dz-sheet3.dz-dark-mode .dz-option .dz-count button i{
+    color: var(--white);
+}
+.dz-sheet3.dz-dark-mode .dz-option .dz-count h3 {
+    background: hsla(0, 0%, 0%, 0.48);
+    color: var(--green);
+    line-height: 36px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.dz-sheet3.dz-dark-mode .dz-option a p {
+    color: var(--white);
+}
+.dz-sheet3.dz-dark-mode .dz-more-option p {
+    color: var(--green);
+}
+.dz-sheet3.dz-dark-mode .dz-more-option h3 {
+    color: var(--white);
+}
+.dz-sheet3.dz-dark-mode .dz-more-option button{
+    color: var(--black);
+}
+/*===============================================
+ sheet 4 css 
+================================================*/
+.dz-sheet4{
+    padding: 40px 30px 52px 30px;
+    background: var(--grey0);
+}
+.dz-sheet4 .dz-title h1{
+    font-size: 34px;
+    line-height: 41px;
+    color: var(--grey70);
+    font-family: SFProBold;
+}
+.dz-sheet4 .dz-title p{
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--grey40);
+    font-family: SFProReg;
+    padding-top: 36px;
+    padding-bottom: 20px;
+}
+.dz-sheet4 .dz-input-box{
+    position: relative;
+    margin-top: 16px;
+}
+.dz-sheet4 .dz-input-box .dz-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+}
+.dz-sheet4 .dz-input-box .dz-icon i{
+    font-size: 20px;
+    background: var(--gradient-grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dz-sheet4 .dz-inputs{
+    height: 48px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 32px;
+    width: 100%;
+    color: var(--grey70);
+    font-size: 17px;
+    font-family: SFProReg;
+}
+.dz-sheet4 .dz-inputs:focus{
+    border-color: #82C5E6;
+}
+.dz-sheet4 .dz-inputs::placeholder{
+    color: var(--grey40);
+    font-size: 17px;
+    font-family: SFProReg;
+    text-transform: capitalize;
+}
+
+.dz-sheet4 .dz-flex{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+.dz-sheet4 .dz-pass{
+    width: 50%;
+    margin-right: 24px;
+}
+
+/* switch */
+.dz-sheet4 .dz-toggle-switch{
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-family: SFProBold;
+    color: var(--grey70);
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+
+.dz-sheet4 .dz-toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.dz-sheet4 .dz-switch-slider {
+    position: absolute;
+    cursor: pointer;
+    width: 51px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    background-color: var(--white);
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-sizing: border-box;
+    border: 1px solid var(--grey30);
+}
+
+.dz-sheet4 .dz-switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 28px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--white);
+    border: 1px solid var(--grey40);
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 0 4px 4px 0 hsla(154, 41%, 63%, 0.24);
+}
+
+.dz-sheet4 input:checked + .dz-switch-slider {
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+
+.dz-sheet4 input:checked + .dz-switch-slider:before {
+    -webkit-transform: translateX(21px);
+    -ms-transform: translateX(21px);
+    transform: translateX(21px);
+}
+
+.dz-sheet4 .dz-switch-slider.dz-round {
+    border-radius: 34px;
+}
+
+.dz-sheet4 .dz-switch-slider.dz-round:before {
+    border-radius: 50%;
+}
+
+/* custom checkbox */
+.dz-sheet4 .dz-checkbox{
+    position: relative;
+    margin-top: 25px;
+}
+.dz-sheet4 .dz-checkbox .dz-para{
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--grey70);
+    font-family: SFProReg;
+    padding-left: 43px;
+}
+.dz-sheet4 .dz-checkbox .dz-para span{
+    color: var(--blue);
+}
+.dz-sheet4 .dz-check {
+    opacity: 0;
+    display: none;
+}
+
+.dz-sheet4 .dz-check-custom {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 21px;
+    width: 21px;
+    border: 1px solid var(--blue);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.dz-sheet4 .dz-check:checked ~ .dz-check-custom {
+    background: var(--gradient-primary);
+    border-color: transparent;
+}
+
+.dz-sheet4 .dz-check-custom:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid var(--white);
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.dz-sheet4 .dz-checkbox-left:checked ~ .dz-check-custom:after {
+    display: block;
+}
+
+.dz-sheet4 .dz-check:checked ~ .dz-check-custom:after {
+    display: block;
+}
+.dz-sheet4 input:checked + .dz-switch-slider {
+    background-color: var(--green);
+}
+
+.dz-sheet4 form button{
+    margin-top: 40px;
+    width: 100%;
+    background: var(--blue);
+    color: var(--white);
+    line-height: 50px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: SFProSemiBold;
+}
+
+/*===============================================
+ sheet 4 dark css 
+================================================*/
+.dz-sheet4.dz-dark-mode{
+    background: var(--grey60);
+}
+.dz-sheet4.dz-dark-mode .dz-title h1{
+    color: var(--white);
+}
+.dz-sheet4.dz-dark-mode .dz-title p{
+    color: var(--grey30);
+}
+.dz-sheet4.dz-dark-mode .dz-inputs{
+    background: hsla(240, 4%, 14%, 0.48);
+}
+.dz-sheet4.dz-dark-mode .dz-inputs:focus{
+    border-color: var(--green);
+    background: var(--grey70);
+}
+.dz-sheet4.dz-dark-mode .dz-switch-slider {
+    background: var(--black);
+    border-color: var(--green);
+}
+.dz-sheet4.dz-dark-mode input:checked + .dz-switch-slider {
+    background-color: var(--black);
+}
+.dz-sheet4.dz-dark-mode .dz-switch-slider:before{
+    background: var(--green);
+    border-color: var(--green);
+}
+.dz-sheet4.dz-dark-mode .dz-checkbox p {
+    color: var(--grey10);
+}
+/*===============================================
+ sheet 5 css 
+================================================*/
+.dz-sheet5{
+    padding: 32px 15px 52px 15px;
+}
+.dz-sheet5 .dz-buttons{
+    position: absolute;
+    top: -25px;
+    right: 15px;
+}
+.dz-sheet5 .dz-buttons button{
+    line-height: 50px;
+    border-radius: 99px;
+    color: var(--white);
+    font-size: 17px;
+    font-family: SFProSemiBold;
+}
+.dz-sheet5 .dz-buttons .dz-play{
+    padding-left: 15px;
+    padding-right: 20px;
+    background: var(--teal);
+    margin-right: 10px;
+    box-shadow: 0 4px 4px 0 hsla(154, 41%, 63%, 0.24);
+}
+.dz-sheet5 .dz-buttons .dz-play i{
+    padding-right: 14px;
+}
+.dz-sheet5 .dz-buttons .dz-delete{
+    width: 50px;
+    background: var(--orange);
+}
+.dz-sheet5 .dz-buttons .dz-delete i{
+    font-size: 20px;
+}
+.dz-sheet5 .dz-title span{
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--grey50);
+    font-size: 13px;
+    line-height: 18px;
+    font-family: SFProReg;
+}
+.dz-sheet5 .dz-title h2{
+    text-transform: capitalize;
+    color: var(--grey70);
+    font-size: 22px;
+    line-height: 28px;
+    font-family: SFProBold;
+    padding-top: 4px;
+}
+.dz-sheet5 .dz-time{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+.dz-sheet5 .dz-time span{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 99px;
+    padding: 0 10px;
+    color: var(--grey50);
+    font-family: SFProReg;
+    margin-left: 12px;
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    -ms-border-radius: 99px;
+    -o-border-radius: 99px;
+}
+.dz-sheet5 .dz-time .dz-active{
+    background: var(--grey0);
+}
+.dz-sheet5 .dz-time span .dz-icon{
+    padding: 0 5px 0 0;
+    margin: 0;
+}
+.dz-sheet5 p{
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--grey50);
+    font-family: SFProReg;
+    padding-bottom: 20px;
+}
+.dz-sheet5 .dz-slider-part .dz-slider-title{
+    padding-bottom: 10px;
+}
+.dz-sheet5 .dz-slider-part .dz-slider-title h2{
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--grey70);
+    font-family: SFProBold;
+    text-transform: capitalize;
+}
+.dz-sheet5 .dz-slider-part .dz-slider-title a{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--blue);
+    font-family: SFProReg;
+    display: flex;
+    align-items: center;
+}
+.dz-sheet5 .dz-slider-part .dz-slider-title a i{
+    margin-left: 8px;
+}
+.dz-sheet5 .dz-slider-part .dz-slider .dz-item{
+    text-align: center;
+}
+.dz-sheet5 .dz-slider-part .dz-slider .dz-item .dz-img{
+    position: relative;
+    box-shadow: 0 8px 8px 0 hsla(240, 17%, 24%, 0.08);
+    margin-bottom: 10px;
+}
+.dz-sheet5 .dz-slider-part .dz-slider .dz-item .dz-img .dz-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.dz-sheet5 .dz-slider-part .dz-slider .dz-item .dz-icon i{
+    font-size: 24px;
+    color: var(--white);
+}
+.dz-sheet5 .dz-slider-part .dz-slider .dz-item h3{
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--grey70);
+    font-family: SFProReg;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.dz-sheet5 .dz-slider-part .dz-slider .dz-item p{
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--teal);
+    font-family: SFProReg;
+}
+/*===============================================
+ sheet 5 dark css 
+================================================*/
+.dz-sheet5.dz-dark-mode{
+    background: var(--grey60);
+}
+.dz-sheet5.dz-dark-mode .dz-buttons .dz-play {
+    background: var(--white);
+    color: var(--black);
+    box-shadow: 0 4px 4px 0 hsla(240, 17%, 24%, 0.08);
+}
+.dz-sheet5.dz-dark-mode .dz-buttons .dz-play i{
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dz-sheet5.dz-dark-mode .dz-buttons .dz-delete{
+    background: var(--blue);
+}
+.dz-sheet5.dz-dark-mode .dz-title span {
+    color: var(--grey40);
+}
+.dz-sheet5.dz-dark-mode .dz-title h2 {
+    color: var(--white);
+}
+.dz-sheet5.dz-dark-mode .dz-time span {
+    color: var(--grey20);
+}
+
+.dz-sheet5.dz-dark-mode .dz-time .dz-active {
+    background: var(--grey70);
+    color: var(--white);
+}
+.dz-sheet5.dz-dark-mode p{
+    color: var(--grey0);
+}
+.dz-sheet5.dz-dark-mode .dz-slider-part .dz-slider-title h2 {
+    color: var(--white);
+}
+.dz-sheet5.dz-dark-mode .dz-slider-part .dz-slider-title a {
+    color: var(--green);
+}
+.dz-sheet5.dz-dark-mode .dz-slider-part .dz-slider .dz-item h3 {
+    color: var(--white);
+}
+.dz-sheet5.dz-dark-mode .dz-slider-part .dz-slider .dz-item p {
+    color: var(--grey30);
+}
+
+
+@media (min-width:250px) and (max-width:374px) {
+    
+}
 [class^="dz-icon-"], [class*=" dz-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
