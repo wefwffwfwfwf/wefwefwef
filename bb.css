@@ -1,5 +1,19 @@
 
-@font-face {font-family: "icomoon"; src: url("//db.onlinewebfonts.com/t/0265b98b68ecf1b3d801b5df4dc155e7.eot"); src: url("//db.onlinewebfonts.com/t/0265b98b68ecf1b3d801b5df4dc155e7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0265b98b68ecf1b3d801b5df4dc155e7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0265b98b68ecf1b3d801b5df4dc155e7.woff") format("woff"), url("//db.onlinewebfonts.com/t/0265b98b68ecf1b3d801b5df4dc155e7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0265b98b68ecf1b3d801b5df4dc155e7.svg#icomoon") format("svg"); }
+@font-face {
+  font-family: 'icomoon';
+  src:  url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.eot?vlrqcz');
+  src:  url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.eot?vlrqcz#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.ttf?vlrqcz') format('truetype'),
+    url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.woff?vlrqcz') format('woff'),
+    url('https://cdn.jsdelivr.net/npm/icomoon@1.0.0/fonts/icomoon.svg?vlrqcz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+
+
 
 [class^="dz-icon-"], [class*=" dz-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
