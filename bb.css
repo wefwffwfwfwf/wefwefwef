@@ -1,11 +1,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/912ac3f81ec1f82d1e2071c3a7f62a9764aa7acd/icomoon.eot?vlrqcz');
-  src:  url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/912ac3f81ec1f82d1e2071c3a7f62a9764aa7acd/icomoon.eot?vlrqcz#iefix') format('embedded-opentype'),
-    url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/912ac3f81ec1f82d1e2071c3a7f62a9764aa7acd/icomoon.ttf?vlrqcz') format('truetype'),
-    url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/912ac3f81ec1f82d1e2071c3a7f62a9764aa7acd/icomoon.woff?vlrqcz') format('woff'),
-    url('https://rawcdn.githack.com/wefwffwfwfwf/wefwefwef/912ac3f81ec1f82d1e2071c3a7f62a9764aa7acd/icomoon.svg?vlrqcz#icomoon') format('svg');
+  src:  url('https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/icomoon.eot?vlrqcz');
+  src:  url('https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/icomoon.eot?vlrqcz#iefix') format('embedded-opentype'),
+    url('https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/icomoon.ttf?vlrqcz') format('truetype'),
+    url('https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/icomoon.woff?vlrqcz') format('woff'),
+    url('https://raw.githack.com/wefwffwfwfwf/wefwefwef/main/icomoon.svg?vlrqcz#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
