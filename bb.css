@@ -17,7 +17,1630 @@
 /*===============================================
  main css 
 ================================================*/
+/*===============================================
+ card  css 
+================================================*/
+.dz-card{
+    background: var(--grey70);
+}
+.dz-light-mode{
+    background: #f7f7f7;
+}
+.dz-card .dz-appbar button,
+.dz-card .dz-appbar a{
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: SFProReg;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+.dz-card .dz-appbar .dz-button-grp button{
+    display: block;
+}
+.dz-card .dz-appbar .dz-btn-grp .dz-left{
+    margin-left: -5px;
+    color: var(--grey20);
+}
+.dz-card .dz-appbar .dz-btn-grp .dz-left i{
+    margin-right: 8px;
+    font-size: 20px;
+}
+.dz-card .dz-appbar  h1{
+    font-size: 34px;
+    color: var(--white);
+    font-family: SFProBold;
+    text-transform: capitalize;
+}
+.dz-card .dz-appbar .dz-app-title{
+    margin-top: 10px;
+}
 
+.dz-card .dz-card-content{
+    padding: 0 15px;
+}
+.dz-card .dz-card-content .dz-btn-grp{
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 26px;
+    background: var(--grey60);
+}
+
+.dz-card .dz-card-content .dz-btn-grp button{
+    width: 50%;
+    line-height: 32px;
+    font-size: 13px;
+    color: var(--white);
+    font-family: SFProReg;
+}
+.dz-card .dz-card-content .dz-btn-grp .dz-active{
+    background: var(--black);
+}
+
+.dz-card .dz-card-content .dz-slider-part h2,
+.dz-card .dz-card-content .dz-topic h2{
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--white);
+    font-family: SFProBold;
+}
+.dz-card .dz-card-content .dz-slider-part p,
+.dz-card .dz-card-content .dz-topic p{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey40);
+    font-family: SFProReg;
+    text-transform: uppercase;
+}
+.dz-card .dz-card-content .dz-slider-part .dz-slider{
+    padding-top: 20px;
+}
+.dz-card .dz-card-content .dz-slider-part .dz-slider .dz-item{
+    border-radius: 10px;
+    padding: 10px;
+}
+.dz-card .dz-card-content .dz-slider-part .dz-slider .dz-item1{
+    background: var(--teal);
+}
+.dz-card .dz-card-content .dz-slider-part .dz-slider .dz-item2{
+    background: #82C5E6;
+}
+.dz-card .dz-card-content .dz-slider-part .dz-slider .dz-item3{
+    background: var(--orange);
+}
+.dz-card .dz-card-content .dz-slider-part .dz-slider .dz-item4{
+    background: var(--gradient-pink);
+}
+.dz-card .dz-card-content .dz-slider-part .dz-slider .dz-item p{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: SFProReg;
+    color: var(--white);
+    text-transform: capitalize;
+    padding-top: 24px;
+}
+.dz-card .dz-card-content .dz-dash-title{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.dz-card .dz-card-content .dz-dash-title h2{
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--white);
+    font-family: SFProSemiBold;
+    text-transform: capitalize;
+}
+.dz-card .dz-card-content .dz-dash-title button,
+.dz-card .dz-card-content .dz-dash-title a,
+.dz-card .dz-card-content .dz-topic button,
+.dz-card .dz-card-content .dz-topic a{
+    line-height: 30px;
+    background: var(--black);
+    padding: 0 12px;
+    color: var(--white);
+    font-size: 13px;
+    font-family: SFProReg;
+    text-transform: capitalize;
+    border-radius: 99px;
+}
+.dz-card .dz-card-content .dz-dash-title button i,
+.dz-card .dz-card-content .dz-dash-title a i,
+.dz-card .dz-card-content .dz-topic button i,
+.dz-card .dz-card-content .dz-topic a i{
+    padding-left: 5px;
+}
+.dz-card .dz-card-content .dz-dash-item{
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 136px;
+}
+.dz-card .dz-card-content .dz-dash-item1{
+    background: var(--grey60);
+}
+.dz-card .dz-card-content .dz-dash-item2,
+.dz-card .dz-card-content .dz-dash-item3,
+.dz-card .dz-card-content .dz-dash-item4,
+.dz-card .dz-card-content .dz-dash-item6{
+    background: var(--black);
+}
+.dz-card .dz-card-content .dz-dash-item5{
+    background: var(--pink);
+}
+.dz-card .dz-card-content .dz-dash-item6{
+    text-align: center;
+}
+
+.dz-card .dz-card-content .dz-dash-item p{
+    color: var(--grey10);
+    font-size: 12px;
+    line-height: 16px;
+    font-family: SFProReg;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.dz-card .dz-card-content .dz-dash-item h3{
+    color: var(--white);
+    font-size: 34px;
+    line-height: 41px;
+    font-family: SFProReg;
+    font-weight: normal;
+}
+.dz-card .dz-card-content .dz-dash-item h4{
+    color: var(--white);
+    font-size: 20px;
+    line-height: 25px;
+    font-family: SFProReg;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.dz-card .dz-card-content .dz-dash-item2 h3{
+    color: var(--teal);
+}
+.dz-card .dz-card-content .dz-dash-item2 h4{
+    color: var(--teal);
+}
+
+.dz-card .dz-card-content .dz-dash-item6 span{
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--white);
+    font-family: SFProReg;
+    display: block;
+}
+.dz-card .dz-card-content .dz-topic{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.dz-card .dz-card-content .dz-topic button{
+    height: 30px;
+}
+.dz-card .dz-card-content .dz-cat{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.dz-card .dz-card-content .dz-cat1,
+.dz-card .dz-card-content .dz-cat3,
+.dz-card .dz-card-content .dz-cat4{
+    background: var(--black);
+}
+.dz-card .dz-card-content .dz-cat2{
+    background: var(--blue);
+}
+.dz-card .dz-card-content .dz-cat p{
+    color: var(--grey40);
+    font-size: 15px;
+    line-height: 20px;
+    font-family: SFProReg;
+    padding-bottom: 10px;
+}
+.dz-card .dz-card-content .dz-cat2 p{
+    color: var(--white);
+}
+.dz-card .dz-card-content .dz-cat h3{
+    color: var(--white);
+    font-size: 34px;
+    line-height: 41px;
+    font-family: SFProBold;
+}
+.dz-card .dz-card-content .dz-cat3 h3{
+    color: var(--green);
+}
+.dz-card .dz-card-content .dz-cat4 h3{
+    color: #82C5E6;
+}
+.dz-card .dz-card-content .dz-cat span{
+    font-family: SFProReg;
+    color: var(--grey40);
+}
+.dz-card .dz-card-content .dz-cat h4{
+    color: var(--white);
+    font-size: 20px;
+    line-height: 25px;
+    font-family: SFProReg;
+    font-weight: normal;
+}
+.dz-card .dz-card-content .dz-category{
+    padding-bottom: 36px;
+}
+
+.dz-card .dz-tab-bar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background: hsla(240, 4%, 14%, 0.72);
+    border-top: 1px solid var(--black);
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+/* .dz-card .dz-tab-bar.dz-tab-icon{
+    padding-top: 10px;
+} */
+.dz-card .dz-bar-btn {
+    text-align: center;
+    color: var(--grey40);
+    text-transform: capitalize;
+    font-family: SFProMedium;
+}
+.dz-card .dz-bar-btn i{
+    font-size: 20px;
+}
+
+
+
+.dz-card .dz-bar-btn span{
+    display: block;
+    font-size: 10px;
+    line-height: 12px;
+    padding-top: 5px;
+}
+.dz-card .dz-tab-bar .dz-active span,
+.dz-card .dz-tab-bar .dz-active i{
+    color: var(--blue);
+}
+
+/*===============================================
+ card light css 
+================================================*/
+.dz-card.dz-light-mode .dz-appbar .dz-btn-grp .dz-left{
+    margin-right: 0;
+}
+.dz-card.dz-light-mode .dz-appbar .dz-btn-grp .dz-left i{
+    color: var(--blue);
+}
+.dz-card.dz-light-mode .dz-appbar .dz-btn-grp .dz-right i{
+    margin-left: 8px;
+    font-size: 20px;
+}
+.dz-card.dz-light-mode .dz-card-content .dz-dash-title h2,
+.dz-card.dz-light-mode .dz-card-content .dz-topic h2{
+    color: var(--grey70);
+}
+.dz-card.dz-light-mode .dz-card-content .dz-dash-title button,
+.dz-card.dz-light-mode .dz-card-content .dz-dash-title a,
+.dz-card.dz-light-mode .dz-card-content .dz-topic button,
+.dz-card.dz-light-mode .dz-card-content .dz-topic a{
+    color: var(--blue);
+    background: transparent;
+    align-items: center;
+    display: flex;
+}
+.dz-card.dz-light-mode .dz-card-content .dz-dash-title button i,
+.dz-card.dz-light-mode .dz-card-content .dz-topic button i{
+    margin-left: 8px;
+}
+
+
+.dz-card.dz-light-mode .dz-tab-bar {
+    background: #f7f7f7;
+    border-top: 1px solid var(--grey10);
+}
+.dz-card.dz-light-mode .dz-tab-bar .dz-active i{
+    color: var(--fff);
+}
+.dz-card.dz-light-mode .dz-tab-bar .dz-active i{
+    color: var(--blue);
+}
+/*===============================================
+ card 1 css 
+================================================*/
+
+.dz-card1 .dz-appbar {
+    padding: 44px 15px 8px 15px;
+    box-sizing: border-box;
+}
+
+.dz-card1 .dz-card-content .dz-topic button i{
+    margin-left: 8px;
+}
+.dz-card1 .dz-card-content .dz-topic button i,
+.dz-card1 .dz-appbar .dz-btn-grp .dz-left i{
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.dz-card1 .dz-card-content .dz-slider .dz-item .dz-icon i{
+    font-size: 30px;
+    color: #fff;
+}
+.dz-card1 .dz-card-content .dz-cat{
+    position: relative;
+}
+.dz-card1 .dz-card-content .dz-cat i{
+    font-size: 20px;
+    color: var(--white);
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+.dz-card1 .dz-card-content .dz-dash-item6{
+    position: relative;
+}
+.dz-card1 .dz-card-content .dz-dash-item6 .dz-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.dz-card1 .dz-card-content .dz-dash-item6 .dz-icon i{
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+.dz-card1 .dz-card-content .dz-dash-item6 span{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    white-space: nowrap;
+}
+.dz-card1 .dz-card-content .dz-category{
+    padding-bottom: 100px;
+}
+.dz-card1 .dz-bar-btn.dz-active i{
+    color: var(--white);
+}
+/*===============================================
+ card 1 light css 
+================================================*/
+
+.dz-light-mode.dz-card1 .dz-appbar .dz-btn-grp .dz-left{
+    color: var(--blue);
+}
+
+.dz-light-mode.dz-card1 .dz-appbar  h1{
+    color: var(--grey70);
+}
+.dz-card1.dz-light-mode .dz-appbar .dz-btn-grp .dz-left i{
+    background: var(--blue);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-btn-grp{
+    background: var(--grey5);
+    border: 1px solid var(--grey5);
+    color: var(--grey50);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-btn-grp button{
+    color: var(--grey50);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-btn-grp .dz-active{
+    background: var(--white);
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 hsla(240, 17%, 24%, 0.06);
+    color: var(--grey70);
+}
+.dz-card1.dz-light-mode .dz-card-content h2{
+    color: var(--grey70);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-slider .dz-item{
+    background: var(--grey5);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-slider .dz-item i{
+    background: var(--gradient-grey);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-slider .dz-item.dz-active i{
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-slider .dz-item p{
+    color: var(--grey70);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-slider .dz-item.dz-active{
+    border: 1px solid var(--blue);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-slider .dz-item.dz-active p{
+    color: var(--blue);
+}
+
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item p{
+    color: var(--white);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item5 i{
+    font-size: 20px;
+    color: #fff;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item6 i{
+    font-size: 30px;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item1{
+    background: var(--gradient-grey);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item2{
+    background: var(--orange);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item2 h3{
+    color: var(--white);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item2 h4{
+    color: var(--white);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item3{
+    background: #82C5E6;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item4{
+    background: var(--pink);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item5{
+    background: var(--green);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item6{
+    background: hsla(211, 100%, 50%, 0.2);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-dash-item6 span{
+    color: var(--blue);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-cat{
+    background: var(--grey5);
+    position: relative;
+}
+
+.dz-card1.dz-light-mode .dz-card-content .dz-cat i{
+    font-size: 20px;
+    color: var(--grey40);
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-cat h3{
+    color: var(--grey70);
+    font-family: SFProReg;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-cat h4{
+    color: var(--grey70);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-cat p{
+    color: var(--grey70);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-cat3{
+    background: transparent;
+    border: 1px solid var(--pink);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-cat3 h3{
+    color: var(--pink);
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-cat4{
+    background: hsla(211, 100%, 50%, 0.1);;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-cat4 h3{
+    color: var(--blue);
+    font-family: SFProBold;
+}
+.dz-card1.dz-light-mode .dz-card-content .dz-cat4 h4{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey40);
+}
+.dz-card1.dz-light-mode .dz-tab-bar{
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+/*===============================================
+card 2 css 
+================================================*/
+
+.dz-card2 .dz-appbar {
+    padding: 44px 15px 0 15px;
+    box-sizing: border-box;
+}
+
+.dz-card2 .dz-appbar .dz-left{
+    display: flex;
+    align-items: center;
+    color: var(--orange);
+}
+.dz-card2 .dz-appbar span{
+    line-height: 30px;
+    background: hsla(35, 100%, 50%, 0.2);
+    color: var(--orange);
+    font-size: 15px;
+    font-family: SFProReg;
+    padding: 0 11px;
+    border-radius: 99px;
+    display: inline-block;
+}
+.dz-card2 .dz-appbar .dz-left i{
+    margin-right: 8px;
+    font-size: 20px;
+}
+.dz-card2 .dz-appbar .dz-btn-grp{
+    display: flex;
+}
+.dz-card2 .dz-appbar .dz-btn-grp button{
+    padding-left: 11px;
+}
+.dz-card2 .dz-appbar .dz-btn-grp button i{
+    font-size: 20px;
+    color: var(--grey40);
+}
+.dz-card2 .dz-appbar .dz-btn-grp button:first-child{
+    padding-left: 0;
+}
+
+.dz-card2 .dz-appbar h1{
+    font-size: 22px;
+}
+
+.dz-card2 .dz-card-content .dz-btn-grp{
+    border: 1px solid var(--green);
+    background: transparent;
+}
+.dz-card2 .dz-card-content .dz-btn-grp button{
+    width: 33.33%;
+    background: transparent;
+    border-right: 1px solid var(--green);
+}
+.dz-card2 .dz-card-content .dz-btn-grp .dz-active{
+    background: var(--green);
+    color: var(--black);
+}
+.dz-card2 .dz-card-content .dz-btn-grp button:last-child{
+    border: 0;
+}
+.dz-card2 .dz-card-content .dz-title p{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey40);
+    text-transform: uppercase;
+    font-family: SFProReg;
+}
+.dz-card2 .dz-card-content .dz-items .dz-img{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.dz-card2 .dz-card-content .dz-items .dz-img img{
+    width: 100%;
+}
+.dz-card2 .dz-card-content .dz-items h3,
+.dz-card2 .dz-card-content .dz-var h3{
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--white);
+    font-family: SFProSemiBold;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.dz-card2 .dz-card-content .dz-items p,
+.dz-card2 .dz-card-content .dz-var p{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey10);
+    font-family: SFProReg;
+    text-transform: uppercase;
+}
+.dz-card2 .dz-card-content .dz-items span,
+.dz-card2 .dz-card-content .dz-var span{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey40);
+    font-family: SFProReg;
+    display: inline-block;
+}
+.dz-card2 .dz-card-content .dz-item2 span{
+    color: var(--green);
+}
+.dz-card2 .dz-card-content .dz-topic button{
+    color: var(--green);
+}
+.dz-card2 .dz-card-content .dz-var .dz-img{
+    margin-bottom: 10px;
+}
+.dz-card2 .dz-card-content .dz-var .dz-img img{
+    width: 100%;
+}
+.dz-card2 .dz-card-content .dz-var h3{
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: normal;
+}
+.dz-card2 .dz-card-content .dz-var p{
+    text-transform: inherit;
+}
+.dz-card2 .dz-tab-bar{
+    background: var(--black);
+    border: 0;
+}
+.dz-card2 .dz-tab-bar .dz-active i{
+    color: var(--green);
+}
+/*===============================================
+ card 2 light css 
+================================================*/
+
+.dz-card2.dz-light-mode .dz-appbar .dz-left{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.dz-card2.dz-light-mode .dz-appbar span{
+    line-height: 30px;
+    background: hsla(35, 100%, 50%, 0.2);
+    color: var(--orange);
+    font-size: 15px;
+    font-family: SFProReg;
+    padding: 0 11px;
+    border-radius: 99px;
+    display: inline-block;
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-btn-grp{
+    border: 0;
+    background: transparent;
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-btn-grp button{
+    border: 0;
+    border-radius: 99px;
+    color: var(--grey50);
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-btn-grp .dz-active{
+    background: var(--blue);
+    color: var(--white);
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-items h3{
+    color: var(--black);
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-items p{
+    color: var(--orange);
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-item2 span{
+    color: var(--grey40);
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-topic h2{
+    font-family: SFProReg;
+    font-weight: normal;
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-topic button,
+.dz-card2.dz-light-mode .dz-card-content .dz-topic a{
+    box-shadow: 0 2px 2px 0 hsla(240, 17%, 24%, 0.06);
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-topic button i{
+    margin-left: 8px;
+    color: var(--blue);
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-var .dz-img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-var h3{
+    color: var(--black);
+}
+.dz-card2.dz-light-mode .dz-card-content .dz-var p{
+    text-transform: uppercase;
+    color: var(--orange);
+}
+.dz-card2.dz-light-mode .dz-tab-bar{
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+/*===============================================
+ card 3 css 
+================================================*/
+
+.dz-card3{
+    background: #4e4e53;
+    position: relative;
+}
+.dz-card3 .dz-appbar {
+    padding: 44px 15px 8px 15px;
+    box-sizing: border-box;
+    position: static;
+}
+
+.dz-card3 .dz-appbar .dz-form{
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background: hsla(0, 0%, 0%, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    display: none;
+}
+.dz-card3 .dz-appbar .dz-form.dz-show{
+    display: block;
+}
+.dz-card3 .dz-appbar .dz-form .dz-input{
+    height: 50px;
+    width: 90%;
+    background: var(--white);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 15px;
+    right: 15px;
+    padding: 0 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.dz-card3 .dz-appbar .dz-form .dz-input::placeholder{
+    text-transform: capitalize;
+    color: var(--grey40);
+    font-family: SFProReg;
+    font-size: 16px;
+}
+.dz-card3 .dz-appbar .dz-form .dz-submit{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    right: 30px;
+    z-index: 10;
+}
+.dz-card3 .dz-appbar .dz-form .dz-submit i{
+    color: var(--grey40);
+}
+.dz-card3 .dz-appbar .dz-form .dz-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* .dz-card3 .dz-appbar .dz-right {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: var(--grey70);
+    text-align: center;
+} */
+.dz-card3 .dz-appbar .dz-right i{
+    line-height: 32px;
+    margin: 0 auto;
+}
+.dz-card3 .dz-card-content .dz-topic h2{
+    font-size: 17px;
+    line-height: 30px;
+    font-family: SFProSemiBold;
+    text-transform: capitalize;
+}
+.dz-card3 .dz-card-content .dz-topic p{
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--teal);
+}
+.dz-card3 .dz-card-content .dz-topic .dz-orng{
+    color: var(--orange);
+}
+.dz-card3 .dz-card-content .dz-topic button{
+    border-radius: 10px;
+    background: var(--grey70);
+}
+.dz-card3 .dz-card-content .dz-topic button i{
+    margin-left: 8px;
+    color: var(--green);
+}
+.dz-card3 .dz-slider-item .dz-img{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    border-radius: 50%;
+}
+.dz-card3 .dz-slider-item .dz-img img{
+    border-radius: 50%;
+    width: 100%;
+}
+.dz-card3 .dz-slider-part{
+    padding: 16px 0 20px 15px;
+    border-bottom: 1px dashed var(--grey70);
+    margin-bottom: 30px;
+}
+.dz-card3 .dz-slider-part .dz-slider-item{
+    text-align: center;
+}
+.dz-card3 .dz-slider-part .dz-slider-item .dz-img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+.dz-card3 .dz-slider-part .dz-slider-item .dz-img img{
+    border-radius: 50%;
+    width: 100%;
+}
+.dz-card3 .dz-slider-item h3{
+    color: var(--white);
+    text-transform: capitalize;
+    font-family: SFProReg;
+    font-weight: normal;
+}
+.dz-card3 .dz-slider-part .dz-slider-item .dz-img p{
+    line-height: 20px;
+    border-radius: 6px;
+    background: var(--green);
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--black);
+    font-family: SFProReg;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+}
+.dz-card3 .dz-slider-part .dz-slider-item.dz-pause p{
+    background: var(--black);
+    color: var(--white);
+}
+.dz-card3 .dz-slider-part .dz-slider-item h3{
+    font-size: 12px;
+    line-height: 16px;
+}
+.dz-card3 .dz-slider11{
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+.dz-card3 .dz-slider1 .dz-slider-item{
+    border-radius: 10px;
+    background: var(--grey70);
+    margin-top: 16px;
+    text-align: center;
+    padding: 15px;
+}
+.dz-card3 .dz-slider1 .dz-slider-item .dz-img{
+    width: 80px;
+}
+.dz-card3 .dz-slider1 .dz-slider-item .dz-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.dz-card3 .dz-slider1 .dz-slider-item .dz-img .dz-notify{
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: var(--green);
+    color: var(--black);
+    border-radius: 50%;
+    display: block;
+    font-family: SFProReg;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.dz-card3 .dz-slider1 .dz-slider-item .dz-img .dz-more{
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    background: var(--grey50);
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.dz-card3 .dz-slider1 .dz-slider-item h3{
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 5px;
+}
+.dz-card3 .dz-slider1 .dz-slider-item p{
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--grey40);
+    font-family: SFProReg;
+    padding-top: 10px;
+}
+.dz-card3 .dz-slider2{
+    padding-top: 15px;
+    padding-bottom: 18px;
+}
+.dz-card3 .dz-slider2 .dz-slider-item{
+    border-radius: 10px;
+    background: var(--grey70);
+    text-align: center;
+    padding: 15px;
+}
+.dz-card3 .dz-slider2 .dz-slider-item.dz-highlight{
+    background: var(--gradient-grey);
+}
+.dz-card3 .dz-slider2 .dz-slider-item .dz-img{
+    width: 80px;
+}
+.dz-card3 .dz-slider2 .dz-slider-item .dz-img .dz-emoji{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: var(--white);
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.dz-card3 .dz-slider2 .dz-slider-item .dz-img .dz-emoji img{
+    width: 100%;
+}
+.dz-card3 .dz-slider2 .dz-slider-item h3{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: SFProMedium;
+    padding-top: 5px;
+}
+
+.dz-card3 .dz-slider2 .dz-slider-item p{
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--grey40);
+    font-family: SFProReg;
+    padding-top: 10px;
+}
+.dz-card3 .dz-slider2 .dz-slider-item.dz-highlight h3,
+.dz-card3 .dz-slider2 .dz-slider-item.dz-highlight p{
+    color: var(--black);
+}
+.dz-card3 .dz-tab-bar{
+    background: #4e4e53;
+    border: 0;
+}
+.dz-card3 .dz-tab-bar .dz-bar-btn.dz-active i{
+    color: var(--green);
+}
+
+/*===============================================
+ card 3 light css 
+================================================*/
+
+.dz-card3.dz-light-mode{
+    background: var(--white);
+}
+.dz-card3.dz-light-mode .dz-appbar h1{
+    font-size: 17px;
+    color: var(--black);
+}
+.dz-card3.dz-light-mode .dz-appbar{
+    border-bottom: 1px solid var(--grey10);
+}
+.dz-card3.dz-light-mode .dz-appbar .dz-right{
+    text-transform: capitalize;
+    color: var(--orange);
+    font-size: 17px;
+    font-family: SFProReg;
+}
+.dz-card3.dz-light-mode .dz-appbar .dz-left i{
+    color: var(--orange);
+    font-size: 20px;
+}
+.dz-card3.dz-light-mode .dz-appbar .dz-right{
+    height: auto;
+    width: auto;
+    background: transparent;
+}
+.dz-card3.dz-light-mode .dz-card-content .dz-topic button,
+.dz-card3.dz-light-mode .dz-card-content .dz-topic a{
+    color: var(--grey60);
+    background: var(--grey0);
+}
+.dz-card3.dz-light-mode .dz-card-content .dz-topic button i,
+.dz-card3.dz-light-mode .dz-card-content .dz-topic a i{
+    color: var(--orange);
+}
+.dz-card3.dz-light-mode .dz-card-content .dz-topic p,
+.dz-card3.dz-light-mode .dz-slider .dz-slider-item p,
+.dz-card3.dz-light-mode .dz-slide .dz-slider-item p{
+    color: var(--grey50);
+}
+.dz-card3.dz-light-mode .dz-slider-part{
+    border-color: var(--grey10);
+}
+.dz-card3.dz-light-mode .dz-slider1 .dz-slider-item .dz-img .dz-more i{
+    color: #fff;
+    font-size: 10px;
+}
+.dz-card3.dz-light-mode .dz-slider-part .dz-slider-item .dz-img p{
+    color: var(--white);
+}
+.dz-card3.dz-light-mode .dz-slider-part .dz-slider-item h3{
+    color: var(--grey70);
+}
+.dz-card3.dz-light-mode .dz-slider-part .dz-slider-item.dz-pause p{
+    background: var(--grey30);
+}
+.dz-card3.dz-light-mode .dz-slider1 .dz-slider-item{
+    background: var(--grey0);
+}
+.dz-card3.dz-light-mode .dz-slider1 .dz-slider-item .dz-img{
+    border: 1px solid var(--white);
+    box-shadow: 0 4px 4px 0 hsla(240, 17%, 24%, 0.08);
+}
+.dz-card3.dz-light-mode .dz-slider1 .dz-slider-item .dz-img .dz-notify{
+    color: var(--white);
+}
+.dz-card3.dz-light-mode .dz-slider1 .dz-slider-item h3{
+    color: var(--grey70);
+}
+
+.dz-card3.dz-light-mode .dz-slider2 .dz-slider-item{
+    background: transparent;
+    border: 1px solid var(--grey30);
+}
+.dz-card3.dz-light-mode .dz-slider2 .dz-slider-item.dz-highlight{
+    background: var(--green);
+    border-color: var(--green);
+}
+.dz-card3.dz-light-mode .dz-slider2 .dz-slider-item h3{
+    color: var(--grey70);
+}
+
+.dz-card3.dz-light-mode .dz-slider2 .dz-slider-item.dz-highlight h3{
+    color: var(--white);
+}
+.dz-card3.dz-light-mode .dz-slider2 .dz-slider-item.dz-highlight p{
+    color: var(--black);
+}
+.dz-card3.dz-light-mode .dz-slider2 .dz-slider-item .dz-img .dz-emoji{
+    background: var(--orange);
+}
+.dz-card3.dz-light-mode .dz-tab-bar .dz-active i{
+    color: var(--orange);
+}
+.dz-card3.dz-light-mode .dz-tab-bar{
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+/*===============================================
+ card 4 css 
+================================================*/
+
+.dz-card4 .dz-appbar {
+    padding: 44px 15px 75px 15px;
+    box-sizing: border-box;
+    background: var(--gradient-primary);
+    text-align: center;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.dz-card4 .dz-appbar .dz-btn-grp .dz-left{
+    color: var(--black);
+    margin-left: 0;
+}
+.dz-card4 .dz-appbar .dz-btn-grp .dz-left i{
+    margin-right: 0;
+}
+/* .dz-card4 .dz-appbar .dz-right{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+} */
+.dz-card4 .dz-appbar .dz-right i{
+    margin-left: 8px;
+}
+.dz-card4 .dz-appbar h1 span{
+    font-size: 16px;
+    line-height: 21px;
+    font-family: SFProReg;
+    font-weight: normal;
+}
+.dz-card4 .dz-appbar h2{
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--white);
+    font-family: SFProSemiBold;
+    padding-top: 40px;
+}
+.dz-card4 .dz-appbar p{
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--white);
+    font-family: SFProReg;
+}
+
+.dz-card4 .dz-card-cat{
+    background: var(--black);
+    border-radius: 8px;
+    margin-top: -50px;
+}
+.dz-card4 .dz-card-cat .dz-cat-item{
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 8px;
+    width: 25%;
+    float: left;
+}
+.dz-card4 .dz-card-cat .dz-cat-item.dz-active{
+    background: var(--white);
+}
+.dz-card4 .dz-card-cat .dz-cat-item span{
+    display: block;
+}
+.dz-card4 .dz-card-cat .dz-cat-item p{
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: var(--grey40);
+    font-family: SFProReg;
+    padding-top: 20px;
+}
+.dz-card4 .dz-card-cat .dz-cat-item.dz-active p{
+    color: var(--black);
+    font-family: SFProBold;
+}
+.dz-card4 .dz-cat-title h2{
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--white);
+    font-family: SFProBold;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.dz-card4 .dz-cat-title p{
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--grey10);
+    font-family: SFProReg;
+}
+.dz-card4 .dz-categories{
+    background: var(--black);
+    border-radius: 8px;
+    padding: 6px;
+    position: relative;
+}
+.dz-card4 .dz-categories.dz-checked{
+    background: var(--gradient-grey);
+}
+.dz-card4 .dz-categories.dz-checked:after{
+    position: absolute;
+    content: '\e975';
+    color: var(--black);
+    font-family: icomoon;
+    height: 20px;
+    width: 20px;
+    top: 6px;
+    right: 6px;
+}
+.dz-card4 .dz-categories h3{
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--white);
+    text-transform: capitalize;
+    font-family: SFProReg;
+    font-weight: normal;
+    padding-top: 30px;
+}
+.dz-card4 .dz-categories.dz-checked h3{
+    font-family: SFProBold;
+    color: var(--black);
+}
+.dz-card4 .dz-categories p{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey40);
+    font-family: SFProReg;
+}
+.dz-card4 .dz-categories.dz-checked p{
+    color: var(--black);
+}
+
+.dz-card4 .dz-cont button{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: var(--black);
+    text-align: center;
+    background: var(--green);
+    line-height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    font-family: SFProSemiBold;
+    margin: 20px 0;
+    position: relative;
+}
+.dz-card4 .dz-cont button i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    right: 20px;
+}
+.dz-card4 .dz-cont button .dz-back {
+    left: 20px;
+    right: auto;
+    color: var(--grey5);
+}
+.dz-card4 .dz-tab-bar .dz-active i {
+    color: var(--orange);
+}
+/*===============================================
+ card 4 light css 
+================================================*/
+
+.dz-card4.dz-light-mode .dz-appbar {
+    background: var(--white);
+}
+.dz-card4.dz-light-mode .dz-appbar .dz-right{
+    color: var(--blue);
+    width: auto;
+    height: auto;
+}
+.dz-card4.dz-light-mode .dz-appbar .dz-right svg{
+    margin-left: 8px;
+}
+.dz-light-mode.dz-card .dz-appbar  h1{
+    color: var(--black);
+}
+.dz-card4.dz-light-mode .dz-appbar h2,
+.dz-card4.dz-light-mode .dz-appbar p{
+    color: var(--grey50);
+}
+.dz-card4.dz-light-mode .dz-card-cat{
+    background: var(--white);
+    box-shadow: 0 2px 2px 0 hsla(240, 17%, 24%, 0.06);
+}
+.dz-card4.dz-light-mode .dz-card-cat .dz-cat-item.dz-active{
+    background: var(--blue);
+}
+.dz-card4.dz-light-mode .dz-card-cat .dz-cat-item.dz-active p,
+.dz-card4.dz-light-mode .dz-categories.dz-checked h3,
+.dz-card4.dz-light-mode .dz-categories.dz-checked p{
+    color: var(--white);
+}
+.dz-card4.dz-light-mode .dz-cat-title h2,
+.dz-card4.dz-light-mode .dz-categories h3{
+    color: var(--grey70);
+}
+.dz-card4.dz-light-mode .dz-cat-title p{
+    color: var(--grey50);
+}
+.dz-card4.dz-light-mode .dz-categories{
+    background: var(--white);
+}
+.dz-card4.dz-light-mode .dz-categories p{
+    color: var(--grey50);
+}
+.dz-card4.dz-light-mode .dz-categories.dz-checked{
+    background: var(--blue);
+}
+.dz-card4.dz-light-mode .dz-categories.dz-checked:after{
+    color: var(--white);
+}
+.dz-card4.dz-light-mode .dz-cont button{
+    color: var(--blue);
+    background: var(--white);
+    border: 1px solid var(--grey40);
+    box-sizing: border-box;
+}
+.dz-card4.dz-light-mode .dz-cont button .dz-back {
+    left: 20px;
+    right: auto;
+    color: var(--grey5);
+}
+.dz-card4.dz-light-mode .dz-cont button i{
+    float: none;
+    margin-top: 0;
+}
+.dz-card4.dz-light-mode .dz-tab-bar{
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+/*===============================================
+ card 5 css 
+================================================*/
+
+.dz-card5 .dz-appbar {
+    padding: 44px 15px 11px 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--black);
+}
+.dz-card5 .dz-appbar .dz-left{
+    color: var(--grey20);
+}
+
+.dz-card5 .dz-appbar .dz-btn-grp{
+    display: flex;
+}
+.dz-card5 .dz-appbar .dz-btn-grp button{
+    padding-left: 11px;
+}
+.dz-card5 .dz-appbar .dz-btn-grp button i{
+    font-size: 25px;
+    color: var(--grey40);
+}
+.dz-card5 .dz-appbar .dz-btn-grp button:first-child{
+    padding-left: 0;
+}
+
+.dz-card-main{
+    background: #121212;
+}
+
+.dz-card5.dz-card-top{
+    border-bottom: 1px solid var(--black);
+    margin-bottom: 20px;
+}
+.dz-card5.dz-card-bottom{
+    border-top: 1px solid var(--black);
+}
+
+.dz-card5 .dz-appbar .dz-btn-grp .dz-left i{
+    color: var(--orange);
+}
+.dz-card5 .dz-card-content .dz-topic h2{
+    text-transform: capitalize;
+}
+.dz-card5 .dz-card-content .dz-topic .dz-share{
+    background: transparent;
+    border: 0;
+}
+.dz-card5 .dz-card-content .dz-topic{
+    padding-bottom: 20px;
+}
+.dz-card5 .dz-card-content .dz-topic a i{
+    color: #fff;
+}
+.dz-card5 .dz-card-content .dz-topic .dz-share i{
+    font-size: 20px;
+}
+.dz-card5 .dz-card-content .dz-topic .dz-topic-text{
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--grey10);
+    font-family: SFProReg;
+    text-transform: none;
+    padding-top: 10px;
+}
+.dz-card5 .dz-card-content .dz-card-grid{
+    overflow: hidden;
+}
+.dz-card5 .dz-card-content .dz-card-grid img{
+    width: 100%;
+}
+.dz-card5 .dz-card-content .dz-img-left{
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.dz-card5 .dz-card-content .dz-img-top-right{
+    border-top-right-radius: 13px;
+}
+.dz-card5 .dz-card-content .dz-img-bottom-right{
+    border-bottom-right-radius: 13px;
+    margin-top: 4px;
+}
+.dz-card5 .dz-topics{
+    padding-top: 20px;
+}
+.dz-card5 .dz-topics button,
+.dz-card5 .dz-topics a{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: SFProReg;
+    color: var(--white);
+    padding: 0 12px;
+    border-radius: 10px;
+    border: 1px solid var(--grey50);
+    text-transform: uppercase;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+.dz-card5 .dz-card-content .dz-topic button i,
+.dz-card5 .dz-card-content .dz-topic a i{
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.dz-card5 .dz-card-content .dz-topic-item{
+    padding: 10px;
+    background: var(--grey60);
+    border-radius: 13px;
+    text-align: center;
+    position: relative;
+}
+.dz-card5 .dz-card-content .dz-topic-item.dz-checked{
+    background: var(--blue);
+}
+.dz-card5 .dz-card-content .dz-topic-item.dz-checked:after{
+    position: absolute;
+    content: '\e976';
+    color: #fff;
+    font-family: icomoon;
+    height: 20px;
+    width: 20px;
+    top: 6px;
+    right: 6px;
+}
+.dz-card5 .dz-card-content .dz-topic-item h3{
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: var(--white);
+    font-family: SFProSemiBold;
+    padding-top: 10px;
+}
+.dz-card5 .dz-card-content .dz-topic-item p{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--white);
+    font-family: SFProReg;
+}
+.dz-card5 .dz-card-content .dz-topic .dz-learn{
+    color: var(--orange);
+    font-family: SFProBold;
+    text-transform: uppercase;
+}
+.dz-card5 .dz-purchase{
+    background: var(--black);
+    border-radius: 13px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.dz-card5 .dz-purchase p{
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--grey10);
+    font-family: SFProReg;
+}
+.dz-card5 .dz-purchase h2{
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--grey10);
+    font-family: SFProBold;
+}
+.dz-card5 .dz-purchase a{
+    font-size: 17px;
+    line-height: 46px;
+    color: var(--black);
+    font-family: SFProSemiBold;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 35px;
+    background: var(--gradient-grey);
+    display: inline-block;
+    margin-top: 15px;
+}
+.dz-card5 .dz-purchase-img{
+    text-align: center;
+}
+.dz-card5 .dz-tab-bar{
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+.dz-card5 .dz-tab-bar .dz-bar-plus-bg{
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    background: var(--blue);
+    border-radius: 50%;
+    margin-top: -20px;
+}
+.dz-card5 .dz-tab-bar .dz-bar-plus-bg i{
+    color: var(--white);
+}
+
+/*===============================================
+ card 5 light css 
+================================================*/
+
+.dz-card5.dz-light-mode .dz-appbar {
+    border-color: var(--grey10);
+}
+.dz-card5.dz-light-mode .dz-appbar .dz-left{
+    color: var(--blue);
+}
+.dz-card-main.dz-light-mode{
+    background: var(--grey0);
+}
+.dz-card5.dz-light-mode{
+    border-color: var(--grey10);
+}
+.dz-card5.dz-light-mode .dz-appbar .dz-btn-grp .dz-right i{
+    color: var(--blue);
+}
+.dz-card.dz-light-mode .dz-card-content .dz-topic p{
+    color: var(--grey50);
+}
+.dz-card5.dz-light-mode .dz-topics a,
+.dz-card5.dz-light-mode .dz-topics button{
+    color: var(--grey70);
+    border-color: var(--grey30);
+}
+.dz-card5.dz-light-mode .dz-card-content .dz-topic a i {
+    color: var(--grey40);
+}
+.dz-card5.dz-light-mode .dz-card-content .dz-topic button i{
+    color: var(--blue);
+}
+.dz-card5.dz-light-mode .dz-card-content .dz-topic-item{
+    background: var(--grey5);
+}
+.dz-card5.dz-light-mode .dz-card-content .dz-topic-item.dz-checked{
+    background: var(--gradient-grey);
+}
+.dz-card5.dz-light-mode .dz-card-content .dz-topic-item h3{
+    color: var(--grey70);
+}
+.dz-card5.dz-light-mode .dz-card-content .dz-topic-item p{
+    color: var(--grey50);
+}
+.dz-card5.dz-light-mode .dz-card-content .dz-topic-item.dz-checked h3,
+.dz-card5.dz-light-mode .dz-card-content .dz-topic-item.dz-checked p,
+.dz-card5.dz-light-mode .dz-purchase p,
+.dz-card5.dz-light-mode .dz-purchase h2{
+    color: var(--white);
+}
+
+.dz-card5.dz-light-mode .dz-card-content .dz-topic .dz-learn{
+    background: var(--grey5);
+}
+.dz-card5.dz-light-mode .dz-purchase{
+    background: var(--gradient-primary);
+}
+
+.dz-card5.dz-light-mode .dz-purchase a{
+    color: var(--white);
+    background: transparent;
+    border: 1px solid var(--grey10);
+}
+
+@media (min-width:250px) and (max-width:374px){
+    .dz-card .dz-appbar h1 {
+        font-size: 18px;
+    }
+}
 .dz-main .dz-appbar{
     box-sizing: border-box;
     padding: 55px 15px 11px 15px;
