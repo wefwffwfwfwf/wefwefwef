@@ -29,7 +29,6 @@
 .dz-card .dz-appbar button,
 .dz-card .dz-appbar a{
     background: transparent;
-    text-transform: capitalize;
     font-size: 17px;
     font-family: SFProReg;
     color: var(--white);
@@ -51,7 +50,6 @@
     font-size: 34px;
     color: var(--white);
     font-family: SFProBold;
-    text-transform: capitalize;
 }
 .dz-card .dz-appbar .dz-app-title{
     margin-top: 10px;
@@ -388,11 +386,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
 }
 .dz-card1 .dz-card-content .dz-dash-item6 .dz-icon i{
     background: var(--gradient-primary);
@@ -404,11 +397,6 @@
     position: absolute;
     bottom: 10px;
     left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
     white-space: nowrap;
 }
 .dz-card1 .dz-card-content .dz-category{
@@ -5559,11 +5547,6 @@ div.spinner div.bar12 {
     position: fixed;
     bottom: -295px;
     left: 0;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
     z-index: 9;
     width: 100%;
 }
@@ -5636,11 +5619,6 @@ div.spinner div.bar12 {
     background: var(--white);
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
     left: 0;
     z-index: 9;
 }
@@ -5786,11 +5764,6 @@ div.spinner div.bar12 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
     z-index: 9;
     display: none;
 }
